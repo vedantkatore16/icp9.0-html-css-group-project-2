@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet"
+    href="./../css/profile.css">
     <title>Profile</title>
 </head>
 <body>
     <h1>Profile</h1>
+    <form>
+        <label for="inputFullName">Enter FullName* </label><br/>
+        <input type="text" id="inputFullName" required />
+  
+        <br /><br />
+  
+        <label for="inputPhone">Enter Phone Number*</label><br/>
+        <input type="PhoneNumber" id="inputPhoneNumber" required />
+  
+        <br /><br />
+  
+        <label for="inputEamilid">Email ID*</label><br/>
+        <input type="email" id="inputEamilid" required /><br/><br/>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label><br />
+  
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label><br/><br/>
+  
+        <label for="selectlanguage">Languages Spoken*</label><br/>
+        <select id="Language">
+            <option>Hindi</option>
+            <option>English</option>
+            
+        </select><br/><br/>
+
+
+  
+        <br /><br />
+  
+        <input type="submit" value="Save" />
+      </form>
+      <hr/>
+
+      <div class="jwellery-card">
+        <img src="./../images/jwellery1.png"alt="jwellery" height="180px"
+        width="150px" class="jwellery-img"/>
+        <p class="jwellery-price">Price: 129/-</p>
+        <p class="text">Jwellery</p>
+      
+        <p>⭐⭐⭐⭐⭐(4) </p>
+        <button class="jwellery-button">Buy Now</button>
+
+
+      </div>
+  
 </body>
 </html>
