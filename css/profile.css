@@ -33,8 +33,19 @@
     margin-top: 20px;
 }
 .jwellery-icon{
-    padding-bottom: 50px;
+    display: flex;
     
+}
+.jwellery-add{
+    margin-top: 20px;
+    margin: 5px 30px;
+    margin-right: 20px;
+}
+.jwellery-add:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 2px;
 }
 .text{
     font-size: 20px;
