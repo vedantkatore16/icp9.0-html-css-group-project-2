@@ -6,57 +6,62 @@
     <title>Profile</title>
 </head>
 <body>
-    <h1>Profile</h1>
-    <form>
-        <label for="inputFullName">Enter FullName* </label><br/>
-        <input type="text" id="inputFullName" required />
-  
-        <br /><br />
-  
-        <label for="inputPhone">Enter Phone Number*</label><br/>
-        <input type="PhoneNumber" id="inputPhoneNumber" required />
-  
-        <br /><br />
-  
-        <label for="inputEamilid">Email ID*</label><br/>
-        <input type="email" id="inputEamilid" required /><br/><br/>
-        <input type="radio" name="gender" id="male" />
-        <label for="male">Male</label><br />
-  
-        <input type="radio" name="gender" id="female" />
-        <label for="female">Female</label><br/><br/>
-  
-        <label for="selectlanguage">Languages Spoken*</label><br/>
-        <select id="Language">
-            <option>Hindi</option>
-            <option>English</option>
-            
-        </select><br/><br/>
+  <div class="flex text-center">
+  <img src="./../img/profile.png" class="profile-img"/>
+  <p>ADD PICTURE</p></div>
+    <h1 class="text-center"> Update Profile</h1>
+    <form class="profile-form">
+        <input type="text" placeholder="Full Name*"  class="profile-form2 "/><br/><br/>
+        <input type="text" placeholder="Phone Number*"  class="profile-form2 " /><br/><br/>
+        <input type="text" placeholder="Email-Id*" class="profile-form2 "  /><br/><br/>
+        <input type="text" placeholder=" Pin code* " class="profile-form2 " /><br/><br/>
+        <input type="text" placeholder=" City*" class="profile-form2"/><br/>
+        <label for="selectGender" class="profile-form2"></label> <br />
+      <select id="selectGender" class="profile-form2 next-btn">
+        <option>Gender*</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select><br/>
 
+        <label for="selectstate" class="profile-form2"></label> <br />
+      <select id="selectlanguage" class="profile-form2 next-btn"><br/><br/>
+        <option>Languages Spoken*</option>
+        <option>Hindi</option>
+        <option>English</option>
+        <option>Tamil</option>
+        <option>Telugu</option>
+        <option>Marathi</option>
+        <option>Kannada</option>
+      </select><br/>
+        <label for="selectstate" class="profile-form2"></label> <br />
+      <select id="selectstate" class="profile-form2 next-btn"><br/>
+        <option>Choose State*</option>
+        <option>Andhra Pradesh</option>
+        <option>Bihar</option>
+        <option>Chandigarh</option>
+        <option>Delhi</option>
+        <option>Goa</option>
+        <option>Gujarat</option>
+        <option>Harayana</option>
+        <option>Himachal Pradesh</option>
+        <option>Jammu&Kashmir</option>
+        <option>Karnataka</option>
+        <option>Ladakh</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Manipur</option>
+        <option>Ngaland</option>
+        <option>Odisha</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Uttar Pradesh</option>
+        <option>Others</option>
+      </select><br/><br/><br/>
 
-  
-        <br /><br />
-  
-        <input type="submit" value="Save" />
+      <input type="submit" value="Logout Your Profile" class=" btn" />
+        <input type="submit" value="Save" class=" btn" />
       </form>
-      <hr/>
-
-      <div class="jwellery-card">
-        <img src="./../images/jwellery1.png"alt="jwellery" height="180px"
-        width="150px" class="jwellery-img"/>
-
-        <div class="jwellery-icon">
-        <p class="jwellery-price">Price: 129/-</p>
-        <img src="./../images/heart.png" height="30px" class="jwellery-add"/>
-        
-      </div>
-      <p class="text">Jwellery</p>
-      
-        <p>⭐⭐⭐⭐⭐(4) </p>
-        <button class="jwellery-button">Buy Now</button>
-
-
-      </div>
+      </form>
   
 </body>
 </html>
