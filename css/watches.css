@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.latestNupcoming{
+    text-align: center;
+}
+.latest{
+    box-shadow: 1px 1px 15px 2px rgb(195, 194, 194);
+}
+.l-n-u-img{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+
+}
+
+.title{
+    font-size: 24px;
+    margin: 30px;
+}
