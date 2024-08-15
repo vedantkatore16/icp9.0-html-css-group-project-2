@@ -19,3 +19,29 @@
     font-size: 24px;
     margin: 30px;
 }
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-card{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.brand-img{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+}
+
+.brand-name{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
