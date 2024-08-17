@@ -29,3 +29,92 @@
     font-family: Roboto;
     padding: 40px;
 } 
+.parent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shopping-card-container {
+    height: 390px;
+    width: 275px;
+    padding: 12px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+
+.shopping-items {
+    height: 200px;
+    width: 280px;
+    background-image: url("../img/home-appliances-images/mixer1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.img-1 {
+    background-image: url("../img/home-appliances-images/mixer1.png");
+}
+
+.img-2 {
+    background-image: url("../img/home-appliances-images/mixer2.png");
+}
+.img-3 {
+    background-image: url("../img/home-appliances-images/mixer3.png");
+}
+.img-4 {
+    background-image: url("../img/home-appliances-images/mixer4.png");
+}
+
+.wishlist-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 250px;
+
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.title {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.ratings {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: 10px auto;
+}
+
+.descrip {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-btn {
+    background-color:white;
+    color: black;
+    margin: 0px 15px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    background-color:black;
+    color: #fff;
+}
