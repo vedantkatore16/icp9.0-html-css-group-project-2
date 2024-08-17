@@ -57,9 +57,35 @@
     margin: 20px 0;
     padding: 20px;
   }
+  .position{
+    position: sticky;
+    top: 20px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px ;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+   
+  }
+  .position:hover{
+    color: white;
+    background-color: rgb(192, 184, 184);
+    transition: 0.5s;
+
+  }
+  .no-underline{
+    text-decoration: none;
+  }
 </style>
 </head>
 <body class="body">
+    <button class="position" >
+        <a href="/index.html" class="no-underline" >
+        Back to Homepage</a>
+    </button>
+
     <div class="parent">
         <div>
             <h1 class="text-center" style="font-size: 40px; font-family: cursive;" >Shoes Gallery...🛍️</h1>
