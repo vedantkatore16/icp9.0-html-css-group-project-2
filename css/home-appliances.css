@@ -23,16 +23,18 @@
     font-size: 25px;
     color: #01012d;
     text-align: center;
+    text-decoration: underline;
 }
 .h1{
     font-size: 40px;
     font-family: Roboto;
     padding: 40px;
+    text-align: center;
 } 
 .parent-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .shopping-card-container {
     height: 390px;
@@ -65,6 +67,42 @@
 }
 .img-4 {
     background-image: url("../img/home-appliances-images/mixer4.png");
+}
+.img-5 {
+    background-image: url("../img/home-appliances-images/mixer5.png");
+}
+.img-6 {
+    background-image: url("../img/home-appliances-images/mixer6.png");
+}
+.img-7 {
+    background-image: url("../img/home-appliances-images/mixer7.png");
+}
+.img-8 {
+    background-image: url("../img/home-appliances-images/mixer8.png");
+}
+.img-9 {
+    background-image: url("../img/home-appliances-images/mixer9.png");
+}
+.img-10 {
+    background-image: url("../img/home-appliances-images/mixer10.png");
+}
+.img-11 {
+    background-image: url("../img/home-appliances-images/mixer11.png");
+}
+.img-12 {
+    background-image: url("../img/home-appliances-images/mixer12.png");
+}
+.img-13 {
+    background-image: url("../img/home-appliances-images/mixer13.png");
+}
+.img-14 {
+    background-image: url("../img/home-appliances-images/mixer15.png");
+}
+.img-15 {
+    background-image: url("../img/home-appliances-images/mixer16.png");
+}
+.img-16 {
+    background-image: url("../img/home-appliances-images/mixer14.png");
 }
 
 .wishlist-icon {
