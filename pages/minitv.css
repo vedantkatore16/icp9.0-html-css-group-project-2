@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #000000;
     color: #fff;
     flex-wrap: wrap;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-    width: 400px;
+    width: 300px;
     padding-left: 20px;
     font-size: 35px;
     font-weight: bold;
@@ -46,7 +46,7 @@ body {
 }
 
 .search-bar input {
-    width: 400px;
+    width: 300px;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -59,13 +59,14 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 1515px;
-    height: 500px;
-    background: #000;
+    height: 510px;
+    background: #5b5959;
 }
 
 .slider-container {
-    width: 700px;
-    height: 450px;
+    padding: 10px 0px 10px 0px;
+    width: 900px;
+    height: 500px;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -78,25 +79,25 @@ body {
     top: 0;
     left: 100%;
     border-radius: 5px;
-    animation: slide 25s infinite;
+    animation: slide 30s infinite;
 }
 
 .card img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    object-fit: cover; /* Ensure the image covers the card area */
+    object-fit: cover; 
 }
 
 .card-button {
     position: absolute;
-    width: 140px;
-    height: 35px;
+    width: 160px;
+    height: 40px;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     padding: 8px 16px;
-    background-color: rgba(0, 91, 188, 0.8);
+    background-color: rgb(0, 68, 140);
     color: white;
     border: none;
     border-radius: 20px;
@@ -104,12 +105,12 @@ body {
     transition: background-color 0.3s;
     display: inline-block;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;  
 }
 
 .card-button:hover {
-    background-color: rgba(247, 25, 25, 0.8);
+    background-color: rgb(254, 0, 0);
 }
 
 .card:nth-child(1) {
@@ -156,36 +157,64 @@ body {
     padding: 20px;
 }
 
-.content-grid h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-}
-
-.grid-item {
-    background-color: #222;
-    border-radius: 10px;
-    overflow: hidden;
+.content-grid h2{
     text-align: center;
-    transition: transform 0.3s;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 0px 20px 0px;
 }
 
-.grid-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 2px solid #00a8e1;
+.product-card-container {
+    text-align: center;
 }
 
-.grid-item p {
-    margin: 10px 0;
+.product-card {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: solid rgb(255, 255, 255);
+    color: #000000;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    vertical-align: top;
 }
 
-.grid-item:hover {
-    transform: scale(1.05);
+.img{
+    width: 195.5px;
+    height: 295.5px;
+    border-radius: 10px;
+
+}
+
+.product-card h2 {
+    font-size: 1.3em;
+    margin: 0 0 10px;
+}
+
+.product-card p {
+    font-size: 1em;
+    margin: 0 0 15px;
+}
+
+.product-card button {
+    width: 120px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #183de6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+    background-color: #f46060;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
