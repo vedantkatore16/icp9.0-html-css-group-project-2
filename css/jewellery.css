@@ -1,0 +1,112 @@
+.shopping-card-container {
+    height: 390px;
+    width: 275px;
+    padding: 12px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+
+.shopping-items {
+    height: 200px;
+    width: 280px;
+    background-image: url("shoes.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.jwellery{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-1 {
+    background-image: url("./../jwellery/jwellery16.png");
+}
+.img-2 {
+    background-image: url("./../jwellery/jwellery3.png");
+}
+.img-3 {
+    background-image: url("./../jwellery/jwellery4.png");
+}
+.img-4 {
+    background-image: url("./../jwellery/jwellery5.png");
+}
+.img-5{
+    background-image:url("./../images/jwellery1.png") ;
+}
+.img-6 {
+    background-image: url("./../jwellery/jwellery6.png");
+}
+.img-7 {
+    background-image: url("./../jwellery/img.png");
+}
+.img-8 {
+    background-image: url("./../jwellery/jwellery12.png");
+}
+.img-9 {
+    background-image: url("./../jwellery/jwellery13.png");
+}
+.img-10 {
+    background-image: url("./../jwellery/jwellery14.png");
+}
+.img-11{
+    background-image: url("./../jwellery/jwellery7.png");
+}
+.img-12{
+    background-image: url("./../jwellery/jwellery15.png");
+}
+.img-13{
+    background-image: url("./../jwellery/jwellery17.png");
+}
+
+.wishlist-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 250px;
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.title {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.ratings {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: 0px auto;
+}
+
+.descrip {
+    margin-left: 10px;
+}
+
+.menu-btn {
+    background-color:white;
+    color: black;
+    margin: 0px 15px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    background-color:black;
+    color: #fff;
+}
