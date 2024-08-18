@@ -1,17 +1,48 @@
 .shopping-card-container {
     height: 390px;
-    width: 275px;
+    width: 255px;
     padding: 12px;
-    margin: 30px;
+    margin: 30px 20px;
     border: 2px solid gray;
     border-radius: 15px;
     box-shadow: 1px 1px 15px 2px #b7b7b8;
 }
+.shopping-card-container1 {
+    height: 260px;
+    width: 255px;
+    padding: 12px;
+    margin: 30px 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+    color: black;
+}
+.shopping-card-container1 :hover{
+    background-color:white;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+}
+.main-img{
+    border-radius:20px;
+    height: 200px;
+    width: 255px;
+    text-align: center;
+    position: sticky;
+
+}
+.main-page{
+    display: flex;
+    
+}
 
 .shopping-items {
     height: 200px;
-    width: 280px;
-    background-image: url("shoes.jpeg");
+    width: 250px;
+    background-image: url("jewellery.css");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -65,7 +96,7 @@
 .wishlist-icon {
     height: 30px;
     width: 30px;
-    margin-left: 250px;
+    margin-left: 210px;
 }
 .price {
     font-size: 20px;
@@ -93,17 +124,17 @@
     margin-left: 10px;
 }
 
-.menu-btn {
-    background-color:white;
+.menu-btn {background-color:white;
     color: black;
-    margin: 0px 15px;
+    margin: 7px 10px;
     padding: 5px 10px;
     width: 100px;
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
-    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
 }
 
 .menu-btn:hover{
