@@ -26,7 +26,8 @@ body {
 }
 
 .logo {
-    
+    width: 400px;
+    padding-left: 20px;
     font-size: 35px;
     font-weight: bold;
 }
@@ -37,6 +38,7 @@ body {
 }
 
 .nav-links a {
+    width: 700px;
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
@@ -44,6 +46,7 @@ body {
 }
 
 .search-bar input {
+    width: 400px;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -56,12 +59,12 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 1515px;
-    height: 400px;
+    height: 500px;
     background: #000;
 }
 
 .slider-container {
-    width: 600px;
+    width: 700px;
     height: 450px;
     border-radius: 5px;
     overflow: hidden;
@@ -99,6 +102,10 @@ body {
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;  
 }
 
 .card-button:hover {
