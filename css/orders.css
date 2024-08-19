@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.deliver-add{
+    height: 40px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px 20px;
+    margin: 20px auto;
+}
+
+.deliver-to-name{
+    margin-bottom: 10px;
+
+}
+.deliver-btn{
+    margin-left: 100px;
+}
+
+.change-add-btn{
+    width: 160px;
+    padding: 10px;
+    color: #ff3f6c;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ff3f6c;
+    border-radius: 7px;
+}
+
+.order-card{
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.order-img{
+    height: 170px;
+}
+
+.order-description{
+    margin: 20px 30px;
+}
+
+.order-brand{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.order-descrip{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.sold-by{
+    font-size: 14px;
+    color: grey;
+    margin: 5px;
+}
+
+.order-price{
+    margin: 5px;
+}
+
+.order-real-price{
+    margin: 0 15px;
+}
+
+
+
+
+.place-order{
+    display: flex;
+}
+
+.order-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.gift-card{
+    width: 400px;
+    padding: 20px;
+    padding-left: 70px;
+    background-color: rgb(214, 179, 179);
+}
+
+.gift-wrap{
+    margin-left: 200px;
+    height:100px;
+    position: relative;
+    top: 100px;
+}
+
+
+
+
+
+
+.bill-section{
+    background-color: aqua;
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.price-details{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.total-mrp{
+    font-size: 15px;
+}
+
+.mrp{
+    margin-left: 200px;
+}
+
+.dis-mrp{
+    margin-left: 155px;
+    color: rgb(255, 0, 0);
+}
+
+.apply-coupon{
+    margin-left: 150px;
+}
+
+.special-color{
+    color: green;
+}
+
+.total-amt{
+    font-weight: bold;
+}
+
+.place-order{
+    width: 330px;
+    padding: 10px 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.place-order:hover{
+   background-color:#ff3f6c ;
+   color: white;
+}
