@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>CAMPUS SHOES BRAND</title>
+    <link rel="icon" href="/img/trolley.png" type="image/png" />
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/login.css"/>
+    <link rel="stylesheet" href="/css/shoes.css"/>
+    <style>
+        .position{
+    position:absolute;
+    top: 20px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px ;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+   
+  }
+  .position:hover{
+    color: white;
+    background-color: rgb(192, 184, 184);
+    transition: 0.5s;
+
+  }
+  .no-underline{
+    text-decoration: none;
+  }
+        .parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+        }
+        
+        .heading {
+                font-size: 50px;
+                font-family: cursive;
+            }
+    
+    .card-parent{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        display: flex;
+        flex-direction:row;
+    }
+    .shopping-card-container {
+       
+        height: 370px;
+        width: 255px;
+        padding: 12px;
+        margin: 30px 20px;
+        border: 2px solid gray;
+        border-radius: 15px;
+        box-shadow: 1px 1px 15px 2px #b7b7b8;
+    }
+    
+    .shopping-items {
+        height: 180px;
+        width: 250px;
+        background-image: url("shoes.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    .img-1 {
+       width: 250px;
+       height: 200px;
+    }
+    
+    .wishlist-icon {
+        height: 30px;
+        width: 30px;
+        margin-left: 210px;
+    
+    }
+    
+    .shopping-card-price {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .shopping-card-title {
+    
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .shopping-card-ratings {
+        height: 15px;
+        width: 70px;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .shopping-card-descrip {
+        margin-left: 10px;
+        margin: 12px 0;
+        font-size: 15px;
+    }
+    
+    .shopping-card-btn {
+        background-color:white;
+        color: black;
+        margin: 7px 10px;
+        padding: 5px 10px;
+        width: 100px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    
+    .shopping-card-btn:hover{
+        background-color:black;
+        color: #fff;
+        border: 1px solid black;
+    }
+    
+    </style>
+        
+    </head>
+    <body>
+        <button class="position" >
+            <a href="/pages/shoes.html" class="no-underline" >
+            Back to Previouspage</a>
+        </button>
+
+        <div class="parent">
+            <div>
+                <span class="heading">CAMPUS...👟</span>
+            </div>
+        </div><hr>
+    <div class="card-parent">
+        
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c1.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹14,195/-</p>
+            <p class="shopping-card-title">Campus Dunk High</p>
+            <p class="shopping-card-ratings">★★★★★(5)</p>
+            <p class="shopping-card-descrip">Full length Shoes.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c2.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹4,999/-</p>
+            <p class="shopping-card-title">Campus Air Force</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">The radiance lives with b-ball original.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c3.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹3,999/-</p>
+            <p class="shopping-card-title">Campus Blazer Mid </p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Comfortable enough to wear.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c4.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹5,999/-</p>
+            <p class="shopping-card-title">Campus Air Max Pluse </p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Low-cut padded ankle</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c5.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹13,110/-</p>
+            <p class="shopping-card-title">Campus Running Shoes </p>
+            <p class="shopping-card-ratings">★★★★★(5)</p>
+            <p class="shopping-card-descrip">Leather overlays for added support.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c6.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹1,999/-</p>
+            <p class="shopping-card-title">Campus Women's Shoes </p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Sensation every step.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c7.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹8,999/-</p>
+            <p class="shopping-card-title">Campus Men's Shoes </p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Fan favourite that offers a soft.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+        
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c8.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹6,999/-</p>
+            <p class="shopping-card-title">Campus LLU</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Creating reactive sensation every step.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c9.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹7,999/-</p>
+            <p class="shopping-card-title">Campus Air Max</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Make every gym moment.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c10.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> 4,999/-</p>
+            <p class="shopping-card-title">Groundbreaking Shoe</p>
+            <p class="shopping-card-ratings">★★★★★(5)</p>
+            <p class="shopping-card-descrip">Experienced guaranteeing authenticity.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c21.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹5,222/-</p>
+            <p class="shopping-card-title">Campus Guide</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Vary widely in design.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c20.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹7,999/-</p>
+            <p class="shopping-card-title">Campus Revolution 5</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Rugged hiking boots.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c19.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹1,545/-</p>
+            <p class="shopping-card-title">Campus Revolution 6</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Comfort and durability are key aspects.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c14.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹9,625/-</p>
+            <p class="shopping-card-title">Campus Air Hot</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Durability are key aspects.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+        
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c15.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹2,625/-</p>
+            <p class="shopping-card-title">Campus Revolution 7</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Made from materials synthetic fabrics.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="/img/wishlist.png" class="wishlist-icon">
+                <img src="/img/shoes-img/c16.jpg" class="img-1">
+            </div>
+            <p class="shopping-card-price"> ₹4,655/-</p>
+            <p class="shopping-card-title">Campus Revolution 7</p>
+            <p class="shopping-card-ratings">★★★★(4)</p>
+            <p class="shopping-card-descrip">Stability to the motions.</p>
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+    </div>
+    </body>
+    </html>
