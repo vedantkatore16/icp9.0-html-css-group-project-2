@@ -158,7 +158,9 @@
     font-size: 15px;
     margin: 5px;
 }
-
+.order-off{
+    color: #ff3f6c;
+}
 .sold-by{
     font-size: 14px;
     color: grey;
