@@ -1,31 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MOBILE SHOPY</title>
-    <link rel="icon" href="/img/trolley.png" type="image/png" />
-    <link rel="stylesheet" href="/css/style.css"/>
-    <link rel="stylesheet" href="/css/login.css"/>
-    <link rel="stylesheet" href="/css/mobile.css"/>
+    <meta charset="UTF-8">
+   
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 <style>
-    .parent {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+    .shopping-card-container {
+        height: 390px;
+        width: 275px;
+        padding: 12px;
+        margin: 30px;
+        border: 2px solid gray;
+        border-radius: 15px;
+        box-shadow: 1px 1px 15px 2px #b7b7b8;
     }
-    
-    .heading {
-            font-size: 50px;
-            font-family: cursive;
-        }
+
+    .shopping-items {
+        height: 200px;
+        width: 280px;
+        background-image: url("shoes.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .img-1 {
+        background-image: url("../img/watch.webp");
+    }
+
+    .wishlist-icon {
+        height: 30px;
+        width: 30px;
+        margin-left: 250px;
+
+    }
+
+    .price {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .title {
+
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .ratings {
+        height: 15px;
+        width: 70px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .descrip {
+        margin-left: 10px;
+    }
+
+    .menu-btn {
+        background-color:white;
+        color: black;
+        margin: 0px 15px;
+        padding: 5px 10px;
+        width: 100px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+        cursor: pointer;
+    }
+
+    .menu-btn:hover{
+        background-color:black;
+        color: #fff;
+    }
+   .shopping-card-container {
+height: 370px;
+width: 255px;
+padding: 12px;
+margin: 30px 20px;
+border: 2px solid gray;
+border-radius: 15px;
+box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+
+.shopping-items {
+height: 180px;
+width: 250px;
+background-image: url("shoes.jpeg");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.img-1 {
+background-image: url("../img/watch.webp");
+}
+
+.wishlist-icon {
+height: 30px;
+width: 30px;
+margin-left: 210px;
+
+}
+
+.shopping-card-price {
+font-size: 20px;
+font-weight: bold;
+margin: 10px;
+text-align: center;
+}
+
+.shopping-card-title {
+
+font-size: 22px;
+font-weight: bold;
+margin: 10px;
+text-align: center;
+}
+
+.shopping-card-ratings {
+height: 15px;
+width: 70px;
+display: block;
+margin: 0px auto;
+}
+
+.shopping-card-descrip {
+margin-left: 10px;
+margin: 12px 0;
+font-size: 15px;
+}
+
+.shopping-card-btn {
+background-color:white;
+color: black;
+margin: 7px 10px;
+padding: 5px 10px;
+width: 100px;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+font-weight: bold;
+border: 1px solid black;
+}
+
+.shopping-card-btn:hover{
+background-color:black;
+color: #fff;
+border: 1px solid black;
+}
+
 </style>
-    
 </head>
-<body>
-    <div class="parent">
-        <div>
-            <span class="heading">MOBILE SHOPY...🛍️ </span>
-        </div>
-    </div><hr>
-    
+
+@@ -88,21 +93,16 @@
+        <img src="../img/wishlist.png" class="wishlist-icon">
+    </div>
+
+    <p class="price"> ₹1,199/-</p>
+
+    <p class="title">Fastrack Revoltt FS1</p>
+
+    <p class="ratings">★★★★★(4)</p>
+
+    <p class="descrip">1.83 Display|BT Calling|Fastcharge|110+ Sports Mode|200+ WatchFaces</p>
+
+    <button class="menu-btn">Add to cart</button>
+    <button class="menu-btn">Buy now</button>
+</div>
+    <p class="shopping-card-price"> ₹1,199/-</p>
+
+    <p class="shopping-card-title">Fastrack Revoltt FS1</p>
+
+    <p class="shopping-card-ratings">★★★★★(4)</p>
+
+    <p class="shopping-card-descrip">1.83 Display|BT Calling|Fastcharge|110+ Sports Mode|200+ WatchFaces</p>
+
+    <button class="shopping-card-btn">Add to cart</button>
+    <button class="shopping-card-btn">Buy now</button>
+</div>
 </body>
-</html>
