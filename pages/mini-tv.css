@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    height: 70px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    width: 300px;
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-links a {
+    width: 700px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1515px;
+    height: 500px;
+    background: #5b5959;
+}
+
+.slider-container {
+    padding: 10px 0px 10px 0px;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 5px;
+    animation: slide 30s infinite;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover; 
+}
+
+.card-button {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #0c3dec;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;  
+}
+
+.card-button:hover {
+    background-color: rgb(254, 0, 0);
+}
+
+.card:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.card:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.card:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.card:nth-child(5) {
+    animation-delay: 20s;
+}
+
+@keyframes slide {
+    0% {
+        left: 100%;
+    }
+    10% {
+        left: 0;
+    }
+    30% {
+        left: 0;
+    }
+    40% {
+        left: -100%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.h-container{
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    background: #0c3dec;
+}
+
+.h-container h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.content-grid {
+    padding: 20px;
+}
+
+.product-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    border: solid rgb(255, 255, 255);
+    color: #000000;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    vertical-align: top;
+}
+
+.img{
+    width: 295.5px;
+    height: 445.5px;
+    border-radius: 5px;
+
+}
+
+.product-card h2 {
+    font-size: 1.3em;
+    margin: 0 0 10px;
+}
+
+.product-card p {
+    font-size: 1em;
+    margin: 0 0 15px;
+}
+
+.product-card button {
+    width: 120px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #183de6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+    background-color: #f46060;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
