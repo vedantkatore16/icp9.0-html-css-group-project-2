@@ -11,7 +11,7 @@
     height: 260px;
     width: 255px;
     padding: 12px;
-    margin: 30px 20px;
+    margin: 50px 90px;
     border: 2px solid gray;
     border-radius: 15px;
     box-shadow: 1px 1px 15px 2px #b7b7b8;
@@ -200,6 +200,66 @@
 }
 .earr-20{
     background-image: url("./../jwellery/earr19.png");
+}
+.bang{
+    background-image: url("./../jwellery/bangle1.png");
+}
+.bang-1{
+    background-image: url("./../jwellery/bangle2.png");
+}
+.bang-2{
+    background-image: url("./../jwellery/bangle3.png");
+}
+.bang-3{
+    background-image: url("./../jwellery/bangle4.png");
+}
+.bang-4{
+    background-image: url("./../jwellery/bangle5.png");
+}
+.bang-5{
+    background-image: url("./../jwellery/bangle6.png");
+}
+.bang-6{
+    background-image: url("./../jwellery/bangle7.png");
+}
+.bang-7{
+    background-image: url("./../jwellery/bangle8.png");
+}
+.bang-8{
+    background-image: url("./../jwellery/bangle9.png");
+}
+.bang-9{
+    background-image: url("./../jwellery/bangle10.png");
+}
+.bang-10{
+    background-image: url("./../jwellery/bangle11.png");
+}
+.bang-11{
+    background-image: url("./../jwellery/bangle12.png");
+}
+.bang-12{
+    background-image: url("./../jwellery/bangle13.png");
+}
+.bang-13{
+    background-image: url("./../jwellery/bangle14.png");
+}
+.bang-14{
+    background-image: url("./../jwellery/bangle15.png");
+}
+.bang-15{
+    background-image: url("./../jwellery/bangle16.png");
+}
+.bang-16{
+    background-image: url("./../jwellery/bangle17.png");
+}
+.bang-17{
+    background-image: url("./../jwellery/bangle18.png");
+}
+.bang-18{
+    background-image: url("./../jwellery/bangle19.png");
+}
+.bang-19{
+    background-image: url("./../jwellery/bangle20.png");
 }
 
 
