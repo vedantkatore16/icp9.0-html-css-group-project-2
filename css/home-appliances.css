@@ -1,8 +1,22 @@
 
 .img0{
-    width: 1290px;
-    height: 600px;
+    width: 590px;
+    height: 570px;
     margin-bottom: 60px;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    border-radius: 90px;
+}
+.container{
+    background-color:  #ffd9b3;
+    width: 1450px; 
+    height: 700px;
+    margin-bottom: 60px;
+    border: 4px solid #ffd9b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
 }
 .img1{
     height: 300px;
@@ -23,7 +37,7 @@
     font-size: 25px;
     color: #01012d;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .h1{
     font-size: 40px;
@@ -44,6 +58,21 @@
     border: 2px solid gray;
     border-radius: 15px;
     box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+/* .shopping-card-container {
+    height: 370px;
+    width: 255px;
+    padding: 12px;
+    margin: 30px 20px;
+    border:0.5px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+    cursor: pointer;
+} */
+
+.shopping-card-container:hover {
+    box-shadow: 0px 0px 20px 2px gray;
+
 }
 
 .shopping-items {
@@ -295,6 +324,54 @@
 }
 .img-96 {
     background-image: url("../img/home-appliances-images/dec96.png");
+}
+.img-101 {
+    background-image: url("../img/home-appliances-images/nis101.png");
+}
+.img-102 {
+    background-image: url("../img/home-appliances-images/nis102.png");
+}
+.img-103 {
+    background-image: url("../img/home-appliances-images/nis103.png");
+}
+.img-104 {
+    background-image: url("../img/home-appliances-images/nis104.png");
+}
+.img-105 {
+    background-image: url("../img/home-appliances-images/nis105.png");
+}
+.img-106 {
+    background-image: url("../img/home-appliances-images/nis106.png");
+}
+.img-107 {
+    background-image: url("../img/home-appliances-images/nis107.png");
+}
+.img-108 {
+    background-image: url("../img/home-appliances-images/nis108.png");
+}
+.img-109 {
+    background-image: url("../img/home-appliances-images/nis109.png");
+}
+.img-110 {
+    background-image: url("../img/home-appliances-images/nis110.png");
+}
+.img-111 {
+    background-image: url("../img/home-appliances-images/nis111.png");
+}
+.img-112 {
+    background-image: url("../img/home-appliances-images/nis112.png");
+}
+.img-113 {
+    background-image: url("../img/home-appliances-images/nis113.png");
+}
+.img-114 {
+    background-image: url("../img/home-appliances-images/nis114.png");
+}
+.img-115 {
+    background-image: url("../img/home-appliances-images/nis115.png");
+}
+.img-116 {
+    background-image: url("../img/home-appliances-images/nis116.png");
 }
 
 .wishlist-icon {
