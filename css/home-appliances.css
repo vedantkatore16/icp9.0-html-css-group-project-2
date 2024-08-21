@@ -1,0 +1,427 @@
+
+.img0{
+    width: 590px;
+    height: 570px;
+    margin-bottom: 60px;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    border-radius: 90px;
+}
+.container{
+    background-color:  #ffd9b3;
+    width: 1450px; 
+    height: 700px;
+    margin-bottom: 60px;
+    border: 4px solid #ffd9b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    border-radius: 1800px 1800px;
+    margin-left: 10px;
+    border: 1px solid;
+    border-color: #000000;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    
+}
+.p1{
+    font-size: 25px;
+    color: #01012d;
+    text-align: center;
+    text-decoration: none;
+}
+.h1{
+    font-size: 40px;
+    font-family: Roboto;
+    padding: 40px;
+    text-align: center;
+} 
+.parent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.shopping-card-container {
+    height: 390px;
+    width: 275px;
+    padding: 12px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+/* .shopping-card-container {
+    height: 370px;
+    width: 255px;
+    padding: 12px;
+    margin: 30px 20px;
+    border:0.5px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+    cursor: pointer;
+} */
+
+.shopping-card-container:hover {
+    box-shadow: 0px 0px 20px 2px gray;
+
+}
+
+.shopping-items {
+    height: 200px;
+    width: 280px;
+    background-image: url("../img/home-appliances-images/mixer1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.img-1 {
+    background-image: url("../img/home-appliances-images/mixer1.png");
+}
+
+.img-2 {
+    background-image: url("../img/home-appliances-images/mixer2.png");
+}
+.img-3 {
+    background-image: url("../img/home-appliances-images/mixer3.png");
+}
+.img-4 {
+    background-image: url("../img/home-appliances-images/mixer4.png");
+}
+.img-5 {
+    background-image: url("../img/home-appliances-images/mixer5.png");
+}
+.img-6 {
+    background-image: url("../img/home-appliances-images/mixer6.png");
+}
+.img-7 {
+    background-image: url("../img/home-appliances-images/mixer7.png");
+}
+.img-8 {
+    background-image: url("../img/home-appliances-images/mixer8.png");
+}
+.img-9 {
+    background-image: url("../img/home-appliances-images/mixer9.png");
+}
+.img-10 {
+    background-image: url("../img/home-appliances-images/mixer10.png");
+}
+.img-11 {
+    background-image: url("../img/home-appliances-images/mixer11.png");
+}
+.img-12 {
+    background-image: url("../img/home-appliances-images/mixer12.png");
+}
+.img-13 {
+    background-image: url("../img/home-appliances-images/mixer13.png");
+}
+.img-14 {
+    background-image: url("../img/home-appliances-images/mixer15.png");
+}
+.img-15 {
+    background-image: url("../img/home-appliances-images/mixer16.png");
+}
+.img-16 {
+    background-image: url("../img/home-appliances-images/mixer14.png");
+}
+.img-21 {
+    background-image: url("../img/home-appliances-images/air21.png");
+}
+.img-22 {
+    background-image: url("../img/home-appliances-images/air22.png");
+}
+.img-23 {
+    background-image: url("../img/home-appliances-images/air23.png");
+}
+.img-24 {
+    background-image: url("../img/home-appliances-images/air24.png");
+}
+.img-25 {
+    background-image: url("../img/home-appliances-images/air25.png");
+}
+.img-26 {
+    background-image: url("../img/home-appliances-images/air26.png");
+}
+.img-27 {
+    background-image: url("../img/home-appliances-images/air27.png");
+}
+.img-28 {
+    background-image: url("../img/home-appliances-images/air28.png");
+}
+.img-29 {
+    background-image: url("../img/home-appliances-images/air29.png");
+}
+.img-30 {
+    background-image: url("../img/home-appliances-images/air30.png");
+}
+.img-31 {
+    background-image: url("../img/home-appliances-images/air31.png");
+}
+.img-32 {
+    background-image: url("../img/home-appliances-images/air32.png");
+}
+.img-33 {
+    background-image: url("../img/home-appliances-images/air33.png");
+}
+.img-34 {
+    background-image: url("../img/home-appliances-images/air34.png");
+}
+.img-35 {
+    background-image: url("../img/home-appliances-images/air35.png");
+}
+.img-36 {
+    background-image: url("../img/home-appliances-images/air36.png");
+}
+.img-41 {
+    background-image: url("../img/home-appliances-images/kit41.png");
+}
+.img-42 {
+    background-image: url("../img/home-appliances-images/kit42.png");
+}
+.img-43 {
+    background-image: url("../img/home-appliances-images/kit43.png");
+}
+.img-44 {
+    background-image: url("../img/home-appliances-images/kit44.png");
+}
+.img-45 {
+    background-image: url("../img/home-appliances-images/kit45.png");
+}
+.img-46 {
+    background-image: url("../img/home-appliances-images/kit46.png");
+}
+.img-47 {
+    background-image: url("../img/home-appliances-images/kit47.png");
+}
+.img-48 {
+    background-image: url("../img/home-appliances-images/kit48.png");
+}
+.img-49 {
+    background-image: url("../img/home-appliances-images/kit49.png");
+}
+.img-50 {
+    background-image: url("../img/home-appliances-images/kit50.png");
+}
+.img-51 {
+    background-image: url("../img/home-appliances-images/kit51.png");
+}
+.img-52 {
+    background-image: url("../img/home-appliances-images/kit52.png");
+}
+.img-53 {
+    background-image: url("../img/home-appliances-images/kit53.png");
+}
+.img-54 {
+    background-image: url("../img/home-appliances-images/kit54.png");
+}
+.img-55 {
+    background-image: url("../img/home-appliances-images/kit55.png");
+}
+.img-56 {
+    background-image: url("../img/home-appliances-images/kit56.png");
+}
+.img-61 {
+    background-image: url("../img/home-appliances-images/fur61.png");
+}
+.img-62 {
+    background-image: url("../img/home-appliances-images/fur62.png");
+}
+.img-63 {
+    background-image: url("../img/home-appliances-images/fur63.png");
+}
+.img-64 {
+    background-image: url("../img/home-appliances-images/fur64.png");
+}
+.img-65 {
+    background-image: url("../img/home-appliances-images/fur65.png");
+}
+.img-66 {
+    background-image: url("../img/home-appliances-images/fur66.png");
+}
+.img-67 {
+    background-image: url("../img/home-appliances-images/fur67.png");
+}
+.img-68 {
+    background-image: url("../img/home-appliances-images/fur68.png");
+}
+.img-69 {
+    background-image: url("../img/home-appliances-images/fur69.png");
+}
+.img-70 {
+    background-image: url("../img/home-appliances-images/fur70.png");
+}
+.img-71 {
+    background-image: url("../img/home-appliances-images/fur71.png");
+}
+.img-72 {
+    background-image: url("../img/home-appliances-images/fur72.png");
+}
+.img-73 {
+    background-image: url("../img/home-appliances-images/fur73.png");
+}
+.img-74 {
+    background-image: url("../img/home-appliances-images/fur74.png");
+}
+.img-75 {
+    background-image: url("../img/home-appliances-images/fur75.png");
+}
+.img-76 {
+    background-image: url("../img/home-appliances-images/fur76.png");
+}
+.img-81 {
+    background-image: url("../img/home-appliances-images/dec81.png");
+}
+.img-82 {
+    background-image: url("../img/home-appliances-images/dec82.png");
+}
+.img-83 {
+    background-image: url("../img/home-appliances-images/dec83.png");
+}
+.img-84 {
+    background-image: url("../img/home-appliances-images/dec84.png");
+}
+.img-85 {
+    background-image: url("../img/home-appliances-images/dec85.png");
+}
+.img-86 {
+    background-image: url("../img/home-appliances-images/dec86.png");
+}
+.img-87 {
+    background-image: url("../img/home-appliances-images/dec87.png");
+}
+.img-88 {
+    background-image: url("../img/home-appliances-images/dec88.png");
+}
+.img-89 {
+    background-image: url("../img/home-appliances-images/dec89.png");
+}
+.img-90 {
+    background-image: url("../img/home-appliances-images/dec90.png");
+}
+.img-91 {
+    background-image: url("../img/home-appliances-images/dec91.png");
+}
+.img-92 {
+    background-image: url("../img/home-appliances-images/dec92.png");
+}
+.img-93 {
+    background-image: url("../img/home-appliances-images/dec93.png");
+}
+.img-94 {
+    background-image: url("../img/home-appliances-images/dec94.png");
+}
+.img-95 {
+    background-image: url("../img/home-appliances-images/dec95.png");
+}
+.img-96 {
+    background-image: url("../img/home-appliances-images/dec96.png");
+}
+.img-101 {
+    background-image: url("../img/home-appliances-images/nis101.png");
+}
+.img-102 {
+    background-image: url("../img/home-appliances-images/nis102.png");
+}
+.img-103 {
+    background-image: url("../img/home-appliances-images/nis103.png");
+}
+.img-104 {
+    background-image: url("../img/home-appliances-images/nis104.png");
+}
+.img-105 {
+    background-image: url("../img/home-appliances-images/nis105.png");
+}
+.img-106 {
+    background-image: url("../img/home-appliances-images/nis106.png");
+}
+.img-107 {
+    background-image: url("../img/home-appliances-images/nis107.png");
+}
+.img-108 {
+    background-image: url("../img/home-appliances-images/nis108.png");
+}
+.img-109 {
+    background-image: url("../img/home-appliances-images/nis109.png");
+}
+.img-110 {
+    background-image: url("../img/home-appliances-images/nis110.png");
+}
+.img-111 {
+    background-image: url("../img/home-appliances-images/nis111.png");
+}
+.img-112 {
+    background-image: url("../img/home-appliances-images/nis112.png");
+}
+.img-113 {
+    background-image: url("../img/home-appliances-images/nis113.png");
+}
+.img-114 {
+    background-image: url("../img/home-appliances-images/nis114.png");
+}
+.img-115 {
+    background-image: url("../img/home-appliances-images/nis115.png");
+}
+.img-116 {
+    background-image: url("../img/home-appliances-images/nis116.png");
+}
+
+.wishlist-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 250px;
+
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.title {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.ratings {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: 10px auto;
+}
+
+.descrip {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-btn {
+    background-color:white;
+    color: black;
+    margin: 0px 15px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    background-color:black;
+    color: #fff;
+}
