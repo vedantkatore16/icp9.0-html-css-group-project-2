@@ -1,0 +1,165 @@
+.body{
+    margin: 0;
+    padding: 0;
+  }
+  .position{
+    position: sticky;
+    top: 20px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px ;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+   
+  }
+  .position:hover{
+    color: white;
+    background-color: rgb(192, 184, 184);
+    transition: 0.5s;
+
+  }
+  .no-underline{
+    text-decoration: none;
+  }
+  .parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-bottom: 15px; 
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.text-center{
+    text-align: center;
+  }
+  .highlight{
+    background-color: #ecdadd;
+    padding: 1px 5px ;
+    border-radius: 5px;
+    }
+
+.parent-2{
+flex-wrap: wrap;
+justify-content: space-around;
+display: flex;
+flex-direction:row;
+}
+
+.header-section{
+margin-top: 15px;
+display: flex;
+border-radius: 5px;
+
+}
+
+.header-img{
+height: 250px;
+width: 250px;
+border-radius: 20% ;
+box-shadow : 0 3px 5px #595959 ;
+border: solid black 0.1px;
+display: block;
+margin: 20px auto;
+}
+.header-img-container{
+width: 50%;
+}
+.header-info-container{
+width: 50%;
+}
+.tag{
+    font-size:23px;
+    color: #000000;
+  }
+
+  .p-co{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+
+.no-underline{
+  text-decoration: none;
+}
+.MAIN-BTN{
+    margin-top: 15PX;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.btn{
+  
+  width: 100px;
+  background-color:white;
+  color: black;
+  margin: 7px 10px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+  font-weight: bold;
+  box-shadow: 0 3px 5px #475d5b;
+}
+
+.btn:hover{
+    background-color:black;
+    color: #fff;
+    border: 1px solid black;
+}
+
+  
+
+.why-choose-us{
+  margin-top: 30px;
+}
+.why-choose-us-card{
+  background-color: white;
+  width: 180px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #475d5b;
+}
+.why-choose-us-img{
+  height: 60px;
+  display: block;
+  margin: 10px auto;
+}
+.why-choose-us-container{
+  display: flex;
+  justify-content: space-around;
+ 
+  margin: 20px 0;
+  padding: 20px;
+}
+.position{
+  position: sticky;
+  top: 20px;
+  left: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px 10px 5px 10px ;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+ 
+}
+.position:hover{
+  color: white;
+  background-color: rgb(192, 184, 184);
+  transition: 0.5s;
+
+}
+.no-underline{
+  text-decoration: none;
+}
