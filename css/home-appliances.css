@@ -3,6 +3,7 @@
     width: 1290px;
     height: 600px;
     margin-bottom: 60px;
+
 }
 .img1{
     height: 300px;
@@ -23,7 +24,7 @@
     font-size: 25px;
     color: #01012d;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .h1{
     font-size: 40px;
@@ -44,6 +45,21 @@
     border: 2px solid gray;
     border-radius: 15px;
     box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+/* .shopping-card-container {
+    height: 370px;
+    width: 255px;
+    padding: 12px;
+    margin: 30px 20px;
+    border:0.5px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+    cursor: pointer;
+} */
+
+.shopping-card-container:hover {
+    box-shadow: 0px 0px 20px 2px gray;
+
 }
 
 .shopping-items {
