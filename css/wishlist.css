@@ -1,0 +1,132 @@
+.my-wishlist-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.apple-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.shopping-card-container {
+    height: 370px;
+    width: 255px;
+    padding: 12px;
+    margin: 30px 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+
+.shopping-items {
+    height: 180px;
+    width: 250px;
+    background-image: url("shoes.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.img-20 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+.img-21 {
+    background-image: url("./../img/electronics_img/iphone.webp");
+}
+.img-22 {
+    background-image: url("./../jwellery/jwellery14.png");
+}
+.img-23 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+.img-24 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+
+.img-25 {
+    background-image: url("./../jwellery/earr1.png");
+}
+
+.img-26 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+
+.img-27 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+.img-28 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+.img-29 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+.img-30 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+.img-31 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+
+
+
+
+
+.wishlist-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 210px;
+
+}
+
+.shopping-card-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.shopping-card-title {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.shopping-card-ratings {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: 0px auto;
+}
+
+.shopping-card-descrip {
+    margin-left: 10px;
+    margin: 12px 0;
+    font-size: 15px;
+}
+
+.shopping-card-btn {
+    background-color:white;
+    color: black;
+    margin: 7px 10px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.shopping-card-btn:hover{
+    background-color:black;
+    color: #fff;
+    border: 1px solid black;
+}
+
+
+
