@@ -30,10 +30,13 @@
         width: 255px;
         padding: 12px;
         margin: 30px 20px;
-        border: 2px solid gray;
+        border: 0.5px solid gray;
         border-radius: 15px;
         box-shadow: 1px 1px 15px 2px #b7b7b8;
     }
+    .shopping-card-container:hover {
+            box-shadow: 0px 0px 20px 2px gray;
+        }
     
     .shopping-items {
         height: 180px;
@@ -45,7 +48,7 @@
     }
     
     .img-1 {
-       width: 250px;
+       width: 225px;
        height: 200px;
     }
     
@@ -125,29 +128,129 @@
     text-decoration: none;
   }
     
+  .footer {
+            background-color: white;
+            color: rgb(17, 14, 14);
+            text-align: center;
+            padding: 1em 0;
+            margin-top:auto;
+        }
+
+        
+        .text {
+            text-decoration: none;
+            cursor: pointer;
+            color: black;
+
+        }
+
+
+        .logins {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .heading {
+            font-size: 50px;
+            font-family: none;
+            margin-right: 150px;
+
+        }
+
+        .fix-header {
+            border-bottom: 1px solid black;
+            position: sticky;
+            left: 0px;
+            top: 0px;
+            background-color: white;
+        }
+
+        .icons {
+            justify-content: end;
+            border: 1px solid white;
+            padding: 8px;
+            cursor: pointer;
+
+        }
+
+        .search-bar {
+            border: none;
+            width: 400px;
+            border-bottom: 1px solid black;
+            text-align: center;
+            margin-right: 200px;
+        }
+
+        .search-bar:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+
+        }
+
+        
+        .head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: center;
+            position: sticky;
+            left: 0;
+            top: 100px;
+            background-color: white;
+
+            padding: 20px;
+
+        }
+
+
     </style>
         
     </head>
     <body>
+    
+        <div class="fix-header">
+            <div class="parent">
+                <div class="upper-side">
+                    <span class="heading"><b>Lootkart...🛍️</b> </span>
+                    <input class="search-bar" type="text" placeholder="search for products" />
+                </div>
+                <div class="logins">
+                    <a href="./pages/my-cart.html"><img src="/img/cart.png" height="40px" class="icons" /></a>
+                    <b>Cart</b>
+                </div>
+                <div class="logins">
+                    <a href="./pages/whistlist.html"><img src="/img/wishlist.png" height="40px" class="icons" /></a>
+                    <b>Wishlist</b>
+                </div>
+                <div class="logins">
+                    <a href="./pages/order's.html"><img src="/img/bag.png" height="40px" class="icons" /></a>
+                    <b>Bag</b>
+                </div>
+                <div class="logins">
+                    <a href="./pages/profile.html"><img src="/img/profile-logo.png" height="40px" class="icons" /></a>
+                    <b>Profile</b>
+                </div>
         
-    <div class="parent">
-        <div class="upper-side">
-            <span class="heading"><b>Lootkart...🛍️</b> </span>
-            <input class="search-bar" type="text" placeholder="search for products" />
-        </div>
-        <div class="logins">
-            <a href="/pages/my-cart.html"><img src="/img/cart.png" height="40px" class="icons" /></a>
-            <b>Cart</b>
-        </div>
-        <div class="logins">
-            <a href="/pages/whistlist.html"><img src="/img/wishlist.png" height="40px" class="icons" /></a>
-            <b>Wishlist</b>
-        </div>
-        <div class="logins">
-            <a href="/pages/order's.html"><img src="/img/bag.png" height="40px" class="icons" /></a>
-            <b>Bag</b>
-        </div>
-    </div><hr>
+        
+                
+            </div>
+            <div class="head">
+                <a href="./mobile-brands.html" class="text"><b>Mobiles</b></a>
+                <a href="./watches.html" class="text"><b>Watches</b></a>
+                <a href="./electronics.html" class="text"><b>Electronics</b></a>
+                <a href="./shoes.html" class="text"><b>Shoes</b></a>
+                <a href="./mini-tv.html" class="text"><b>Mini-tv</b></a>
+                <a href="./jewellery.html" class="text"><b>jewellery</b></a>
+                <a href="./home-appliances.html" class="text"><b>home-appliances</b></a>
+                <a href="./beauty.html" class="text"><b>Beauty</b></a>
+                <a href="./perfume.html" class="text"><b>Perfume</b></a>
+                <a href="./toys.html" class="text"><b>Toys</b></a>
+            </div>
+        
+        
+        </div><hr>
+        
         <div class="parent">
             <div>
                 <span class="heading">PUMA...👟</span>
@@ -415,5 +518,11 @@
         
 
     </div>
+
+    
+    <footer class="footer">
+        <p>&copy;2024 Lootkart. All Rights Reserved.</p>
+    </footer>
+
     </body>
     </html>

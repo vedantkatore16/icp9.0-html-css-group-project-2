@@ -10,6 +10,10 @@ body {
     padding: 15px;
     align-self: center;
     cursor: pointer;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background-color: white;
 }
 
 .logo {
@@ -20,7 +24,7 @@ body {
     padding: 0;
 }
 
-.upper-side {}
+
 
 .heading {
     font-size: 50px;
@@ -28,6 +32,7 @@ body {
     margin-right: 150px;
 
 }
+
 
 .search-bar {
     border: none;
@@ -37,11 +42,32 @@ body {
     margin-right: 200px;
 }
 
+.search-bar:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+
 .icons {
     justify-content: end;
     border: 1px solid white;
     padding: 8px;
     cursor: pointer;
+
+}
+
+.icons:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+.logins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .header {
@@ -53,13 +79,22 @@ body {
     position: sticky;
 }
 
-.logins {
+.head {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    position: sticky;
+    left: 0;
+    top: 100px;
+    background-color: white;
 
+    padding: 20px;
 
 }
+
+
+
 
 .card {
     width: 300px;
@@ -69,11 +104,18 @@ body {
 
 }
 
+.text {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
 .pages {
     display: flex;
     margin: 30px;
     font-size: 20px;
-    background-color: ;
+    
 }
 
 .icon {
@@ -81,4 +123,25 @@ body {
     flex-direction: column;
     align-items: center;
     margin-right: 30px;
+}
+
+
+
+
+
+.fix-header {
+    border-bottom: 1px solid black;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+}
+
+.footer1 {
+    background-color: white;
+    color: rgb(17, 14, 14);
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 17em;
+    border-top: 1px solid;
 }

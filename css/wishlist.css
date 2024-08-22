@@ -39,10 +39,10 @@
     background-image: url("./../jwellery/jwellery14.png");
 }
 .img-23 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("./../jwellery/bangle19.png");
 }
 .img-24 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("./../images/lipbalmicon.jpg");
 }
 
 .img-25 {
@@ -50,23 +50,83 @@
 }
 
 .img-26 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("./../img/home-appliances-images/fur73.png");
 }
 
 .img-27 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("../img/apple-watch-1.jpg");
 }
 .img-28 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("../img/home-appliances-images/air28.png");
 }
 .img-29 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("../img/home-appliances-images/kit45.png");
 }
 .img-30 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("../img/apple-watch-12.jpg");
 }
 .img-31 {
-    background-image: url("../img/apple-watch-6.jpg");
+    background-image: url("../img/home-appliances-images/mixer1.png");
+}
+
+
+.w1{
+    background-image: url("./../img/electronics_img/w1.webp"); 
+}
+
+.w2{
+    background-image: url("./../img/electronics_img/w2.webp"); 
+}
+.w3{
+    background-image: url("./../img/electronics_img/washing_machine.avif"); 
+}
+.w4{
+    background-image: url("./../img/electronics_img/w4.webp"); 
+}
+.w5{
+    background-image: url("./../img/electronics_img/w5.webp"); 
+}
+.w6{
+    background-image: url("./../img/electronics_img/w6.webp"); 
+}
+.w7{
+    background-image: url("./../img/electronics_img/w7.webp"); 
+}
+.w8{
+    background-image: url("./../img/electronics_img/w8.webp"); 
+}
+
+
+.hp1{
+    background-image: url("./../img/electronics_img/hp1.webp"); 
+}
+
+.hp2{
+    background-image: url("./../img/electronics_img/hp2.webp"); 
+}
+
+.hp3{
+    background-image: url("./../img/electronics_img/hp3.webp"); 
+}
+
+.hp4{
+    background-image: url("./../img/electronics_img/hp4.webp"); 
+}
+
+.hp5{
+    background-image: url("./../img/electronics_img/hp5.webp"); 
+}
+
+.hp6{
+    background-image: url("./../img/electronics_img/hp6.webp"); 
+}
+
+.hp7{
+    background-image: url("./../img/electronics_img/hp7.webp"); 
+}
+
+.hp8{
+    background-image: url("./../img/electronics_img/hp8.webp"); 
 }
 
 
