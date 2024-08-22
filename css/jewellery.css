@@ -7,6 +7,7 @@
     border-radius: 15px;
     box-shadow: 1px 1px 15px 2px #b7b7b8;
 }
+
 .shopping-card-container1 {
     height: 260px;
     width: 255px;
@@ -17,27 +18,31 @@
     box-shadow: 1px 1px 15px 2px #b7b7b8;
     color: black;
 }
-.shopping-card-container1 :hover{
-    background-color:white;
+
+.shopping-card-container1 :hover {
+    background-color: white;
     transition: 0.6s;
     cursor: pointer;
 
 }
-.heading{
+
+.heading {
     text-align: center;
     margin: 20px;
 }
-.main-img{
-    border-radius:20px;
+
+.main-img {
+    border-radius: 20px;
     height: 200px;
     width: 255px;
     text-align: center;
     position: sticky;
 
 }
-.main-page{
+
+.main-page {
     display: flex;
-    
+
 }
 
 .shopping-items {
@@ -49,216 +54,279 @@
     background-position: center;
 
 }
-.jwellery{
+
+.jwellery {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .img-1 {
     background-image: url("./../jwellery/jwl15.png");
 }
+
 .img-2 {
     background-image: url("./../jwellery/jwellery3.png");
 }
+
 .img-3 {
     background-image: url("./../jwellery/jwellery4.png");
 }
+
 .img-4 {
     background-image: url("./../jwellery/jwellery5.png");
 }
-.img-5{
-    background-image:url("./../images/jwellery1.png") ;
+
+.img-5 {
+    background-image: url("./../images/jwellery1.png");
 }
+
 .img-6 {
     background-image: url("./../jwellery/jwellery6.png");
 }
+
 .img-7 {
     background-image: url("./../jwellery/img.png");
 }
+
 .img-8 {
     background-image: url("./../jwellery/jwellery12.png");
 }
+
 .img-9 {
     background-image: url("./../jwellery/jwellery13.png");
 }
+
 .img-10 {
     background-image: url("./../jwellery/jwellery14.png");
 }
-.img-11{
+
+.img-11 {
     background-image: url("./../jwellery/jwellery7.png");
 }
-.img-12{
+
+.img-12 {
     background-image: url("./../jwellery/jwellery15.png");
 }
-.img-13{
+
+.img-13 {
     background-image: url("./../jwellery/jwellery17.png");
 }
 
-.img-14{
+.img-14 {
     background-image: url("./../jwellery/jwl3.png");
 }
 
-.img-15{
+.img-15 {
     background-image: url("./../jwellery/jwl1.png");
 }
 
-.img-16{
+.img-16 {
     background-image: url("./../jwellery/jwellery16.png");
 }
-.img-17{
+
+.img-17 {
     background-image: url("./../jwellery/jwl6.png");
 }
 
-.img-18{
+.img-18 {
     background-image: url("./../jwellery/jwl7.png");
 }
 
-.img-19{
+.img-19 {
     background-image: url("./../jwellery/jwl8.png");
 }
-.img-20{
+
+.img-20 {
     background-image: url("./../jwellery/jwl9.png");
 }
-.img-21{
+
+.img-21 {
     background-image: url("./../jwellery/jwl10.png");
 }
-.img-22{
+
+.img-22 {
     background-image: url("./../jwellery/jwl11.png");
 }
-.img-23{
+
+.img-23 {
     background-image: url("./../jwellery/jwl12.png");
 }
-.img-24{
+
+.img-24 {
     background-image: url("./../jwellery/jwl13.png");
 }
-.img-25{
+
+.img-25 {
     background-image: url("./../jwellery/jwl14.png");
 }
-.img-26{
+
+.img-26 {
     background-image: url("./../jwellery/jwl15.png");
 }
-.img-27{
+
+.img-27 {
     background-image: url("./../jwellery/jwl16.png");
 }
-.earr-1{
+
+.earr-1 {
     background-image: url("./../jwellery/earr.png");
 }
-.earr-2{
+
+.earr-2 {
     background-image: url("./../jwellery/earr1.png");
 }
-.earr-3{
+
+.earr-3 {
     background-image: url("./../jwellery/earr2.png");
 }
-.earr-4{
+
+.earr-4 {
     background-image: url("./../jwellery/earr3.png");
 }
-.earr-5{
+
+.earr-5 {
     background-image: url("./../jwellery/earr4.png");
 }
-.earr-6{
+
+.earr-6 {
     background-image: url("./../jwellery/earr5.png");
 }
-.earr-7{
+
+.earr-7 {
     background-image: url("./../jwellery/earr6.png");
 }
-.earr-8{
+
+.earr-8 {
     background-image: url("./../jwellery/earr7.png");
 }
-.earr-9{
+
+.earr-9 {
     background-image: url("./../jwellery/earr8.png");
 }
-.earr-10{
+
+.earr-10 {
     background-image: url("./../jwellery/earr9.png");
 }
-.earr-11{
+
+.earr-11 {
     background-image: url("./../jwellery/earr10.png");
 }
-.earr-12{
+
+.earr-12 {
     background-image: url("./../jwellery/earr11.png");
 }
-.earr-13{
+
+.earr-13 {
     background-image: url("./../jwellery/earr12.png");
 }
-.earr-14{
+
+.earr-14 {
     background-image: url("./../jwellery/earr13.png");
 }
-.earr-15{
+
+.earr-15 {
     background-image: url("./../jwellery/earr14.png");
 }
-.earr-16{
+
+.earr-16 {
     background-image: url("./../jwellery/earr15.png");
 }
-.earr-17{
+
+.earr-17 {
     background-image: url("./../jwellery/earr16.png");
 }
-.earr-18{
+
+.earr-18 {
     background-image: url("./../jwellery/earr17.png");
 }
-.earr-19{
+
+.earr-19 {
     background-image: url("./../jwellery/earr18.png");
 }
-.earr-20{
+
+.earr-20 {
     background-image: url("./../jwellery/earr19.png");
 }
-.bang{
+
+.bang {
     background-image: url("./../jwellery/bangle1.png");
 }
-.bang-1{
+
+.bang-1 {
     background-image: url("./../jwellery/bangle2.png");
 }
-.bang-2{
+
+.bang-2 {
     background-image: url("./../jwellery/bangle3.png");
 }
-.bang-3{
+
+.bang-3 {
     background-image: url("./../jwellery/bangle4.png");
 }
-.bang-4{
+
+.bang-4 {
     background-image: url("./../jwellery/bangle5.png");
 }
-.bang-5{
+
+.bang-5 {
     background-image: url("./../jwellery/bangle6.png");
 }
-.bang-6{
+
+.bang-6 {
     background-image: url("./../jwellery/bangle7.png");
 }
-.bang-7{
+
+.bang-7 {
     background-image: url("./../jwellery/bangle8.png");
 }
-.bang-8{
+
+.bang-8 {
     background-image: url("./../jwellery/bangle9.png");
 }
-.bang-9{
+
+.bang-9 {
     background-image: url("./../jwellery/bangle10.png");
 }
-.bang-10{
+
+.bang-10 {
     background-image: url("./../jwellery/bangle11.png");
 }
-.bang-11{
+
+.bang-11 {
     background-image: url("./../jwellery/bangle12.png");
 }
-.bang-12{
+
+.bang-12 {
     background-image: url("./../jwellery/bangle13.png");
 }
-.bang-13{
+
+.bang-13 {
     background-image: url("./../jwellery/bangle14.png");
 }
-.bang-14{
+
+.bang-14 {
     background-image: url("./../jwellery/bangle15.png");
 }
-.bang-15{
+
+.bang-15 {
     background-image: url("./../jwellery/bangle16.png");
 }
-.bang-16{
+
+.bang-16 {
     background-image: url("./../jwellery/bangle17.png");
 }
-.bang-17{
+
+.bang-17 {
     background-image: url("./../jwellery/bangle18.png");
 }
-.bang-18{
+
+.bang-18 {
     background-image: url("./../jwellery/bangle19.png");
 }
-.bang-19{
+
+.bang-19 {
     background-image: url("./../jwellery/bangle20.png");
 }
 
@@ -271,6 +339,7 @@
     width: 30px;
     margin-left: 210px;
 }
+
 .price {
     font-size: 20px;
     font-weight: bold;
@@ -297,7 +366,8 @@
     margin-left: 10px;
 }
 
-.menu-btn {background-color:white;
+.menu-btn {
+    background-color: white;
     color: black;
     margin: 30px 10px;
     padding: 5px 10px;
@@ -310,13 +380,94 @@
     border: 1px solid black;
 }
 
-.menu-btn:hover{
-    background-color:black;
+.menu-btn:hover {
+    background-color: black;
     color: #fff;
 }
-.all-img{
-    height:200px ;
+
+.all-img {
+    height: 200px;
     width: 255px;
     display: block;
     margin-bottom: 100px;
+}
+
+.r-1 {
+    background-image: url("./../img/jwellery/rakhi1.png");
+}
+
+.r-2 {
+    background-image: url("./../img/jwellery/rakhi2.png");
+}
+
+.r-3 {
+    background-image: url("./../img/jwellery/rakhi3.png");
+}
+
+.r-4 {
+    background-image: url("./../img/jwellery/rakhi4.png");
+}
+
+.r-5 {
+    background-image: url("./../img/jwellery/rakhi5.png");
+}
+
+.r-6 {
+    background-image: url("./../img/jwellery/rakhi6.png");
+}
+
+.r-7 {
+    background-image: url("./../img/jwellery/rakhi7.png");
+}
+
+.r-8 {
+    background-image: url("./../img/jwellery/rAkhi8.png");
+}
+
+.r-9 {
+    background-image: url("./../img/jwellery/rakhi9.png");
+}
+
+.r-10 {
+    background-image: url("./../img/jwellery/rakhi10.png");
+}
+
+.r-11 {
+    background-image: url("./../img/jwellery/rakhi11.png");
+}
+
+.r-12 {
+    background-image: url("./../img/jwellery/rakhi12.png");
+}
+
+.r-13 {
+    background-image: url("./../img/jwellery/rakhi13.png");
+}
+
+.r-14 {
+    background-image: url("./../img/jwellery/rakhi14.png");
+}
+
+.r-15 {
+    background-image: url("./../img/jwellery/rakhi15.png");
+}
+
+.r-16 {
+    background-image: url("./../img/jwellery/rakhi16.png");
+}
+
+.r-17 {
+    background-image: url("./../img/jwellery/rakhi17.png");
+}
+
+.r-18 {
+    background-image: url("./../img/jwellery/rakhi18.png");
+}
+
+.r-19 {
+    background-image: url("./../img/jwellery/rakhi19.png");
+}
+
+.r-20 {
+    background-image: url("./../img/jwellery/rakhi20.png");
 }
