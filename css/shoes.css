@@ -6,7 +6,22 @@
   .no-underline{
     text-decoration: none;
   }
+
+  
   .parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-self: center;
+    cursor: pointer;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+}
+
+
+  .parent1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
