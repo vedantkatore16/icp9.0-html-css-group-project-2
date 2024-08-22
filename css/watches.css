@@ -3,6 +3,84 @@
     padding: 0;
 }
 
+/* ***** nav-bar **** */
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: #808D7C;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: none;
+    margin-right: 150px;
+
+}
+
+.search-bar {
+    border: none;
+    width: 400px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-right: 200px;
+}
+
+.icons {
+    justify-content: end;
+    border: 1px solid white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-self: center;
+    cursor: pointer;
+    position: sticky;
+}
+
+.logins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.pages {
+    display: flex;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
 /* **** latest and upcoming section **** */
 .latestNupcoming{
     text-align: center;
@@ -14,7 +92,6 @@
     display: inline-block;
     height: 300px;
     width: 300px;
-
 }
 
 
@@ -53,7 +130,7 @@
 }
 
 .banner-img{
-    height: 230px;
+    height: auto;
     width: 100vw;
     margin-top: 30px;
 }
@@ -127,6 +204,10 @@
     box-shadow: 1px 1px 20px 1px rgb(168, 168, 168);
 }
 
+.app-banner-dis{
+    height: 200px;
+}
+
 
 .icon{
     height: 40px;
@@ -150,7 +231,7 @@
 .bg-banner{
     height: 300px;
     width: 100vw;
-    background-color: rgb(246, 243, 243);
+    background-color: rgb(130, 127, 127);
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -165,7 +246,7 @@
 .banner-cards{
     height: 270px;
     width: 240px;
-    background-color: white;
+    background-color: rgb(247, 243, 243);
     margin-right: 50px;
     margin-left: 20px;
     text-align: center;
@@ -289,3 +370,213 @@
 }
 
 /*** end **/
+
+
+/*  **apple cards **/
+
+.img-1 {
+    background-image: url("../img/apple-watch-1.jpg");
+}
+
+.img-2 {
+    background-image: url("../img/apple-watch-2.jpg");
+}
+
+.img-3 {
+    background-image: url("../img/apple-watch-3.jpg");
+}
+
+.img-4 {
+    background-image: url("../img/apple-watch-4.jpg");
+}
+
+.img-5 {
+    background-image: url("../img/apple-watch-5.jpg");
+}
+
+.img-6 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+
+.img-7 {
+    background-image: url("../img/apple-watch-7.jpg");
+}
+
+.img-8 {
+    background-image: url("../img/apple-watch-8.jpg");
+}
+
+.img-9 {
+    background-image: url("../img/apple-watch-9.jpg");
+}
+
+.img-10 {
+    background-image: url("../img/apple-watch-10.jpg");
+}
+
+.img-11 {
+    background-image: url("../img/apple-watch-11.jpg");
+}
+
+.img-12 {
+    background-image: url("../img/apple-watch-12.jpg");
+}
+
+/*** end ***/
+
+/** boat */
+
+.img-13 {
+    background-image: url("../img/w-banner-boat-1.jpg");
+}
+
+.img-14 {
+    background-image: url("../img/w-banner-boat-2.jpg");
+}
+
+.img-15 {
+    background-image: url("../img/w-banner-boat-3.jpg");
+}
+
+.img-16 {
+    background-image: url("../img/boat-watch=4.jpg");
+}
+
+.img-17 {
+    background-image: url("../img/boat-watch-5.jpg");
+}
+
+.img-18 {
+    background-image: url("../img/boat-watch-6.jpg");
+}
+
+.img-19 {
+    background-image: url("../img/boat-watch-7.jpg");
+}
+
+.img-20 {
+    background-image: url("../img/boat-watch-8.jpg");
+}
+
+.img-21 {
+    background-image: url("../img/boat-watch-9.jpg");
+}
+
+.img-22 {
+    background-image: url("../img/boat-watch-10.jpg");
+}
+
+.img-23 {
+    background-image: url("../img/boat-watch-11.jpg");
+}
+
+.img-24 {
+     background-image: url("../img/boat-watch-12.jpg");
+}
+
+
+/** samsung **/
+
+.img-25 {
+    background-image: url("../img/samsung-watch-1.jpg");
+}
+
+.img-26 {
+    background-image: url("../img/samsung-watch-2.jpg");
+}
+
+.img-27 {
+    background-image: url("../img/samsung-watch-3.jpg");
+}
+
+.img-28 {
+    background-image: url("../img/samsung-watch-4.jpg");
+}
+
+.img-29 {
+    background-image: url("../img/samsung-watch-5.jpg");
+}
+
+.img-30 {
+    background-image: url("../img/samsung-watch-6.jpg");
+}
+
+.img-31 {
+    background-image: url("../img/samsung-watch-7.jpg");
+}
+
+.img-32 {
+    background-image: url("../img/samsung-watch-8.jpg");
+}
+
+.img-33 {
+    background-image: url("../img/samsung-watch-9.jpg");
+}
+
+.img-34 {
+    background-image: url("../img/samsung-watch-10.jpg");
+}
+
+.img-35 {
+    background-image: url("../img/samsung-watch-11.jpg");
+}
+
+.img-36 {
+     background-image: url("../img/samsung-watch-12.jpg");
+}
+
+/*** end **/
+
+
+/*** fireboltt **/
+
+.img-37 {
+    background-image: url("../img/apple-watch-1.jpg");
+}
+
+.img-38{
+    background-image: url("../img/apple-watch-2.jpg");
+}
+
+.img-39 {
+    background-image: url("../img/apple-watch-3.jpg");
+}
+
+.img-40 {
+    background-image: url("../img/apple-watch-4.jpg");
+}
+
+.img-41 {
+    background-image: url("../img/apple-watch-5.jpg");
+}
+
+.img-42 {
+    background-image: url("../img/apple-watch-6.jpg");
+}
+
+.img-43 {
+    background-image: url("../img/apple-watch-7.jpg");
+}
+
+.img-44 {
+    background-image: url("../img/apple-watch-8.jpg");
+}
+
+.img-45 {
+    background-image: url("../img/apple-watch-9.jpg");
+}
+
+.img-46 {
+    background-image: url("../img/apple-watch-10.jpg");
+}
+
+.img-47 {
+    background-image: url("../img/apple-watch-11.jpg");
+}
+
+.img-48 {
+    background-image: url("../img/apple-watch-12.jpg");
+}
+
+
+/** end **/

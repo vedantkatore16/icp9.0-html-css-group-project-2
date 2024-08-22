@@ -1,0 +1,212 @@
+
+
+.electronic-banner {
+    width: 1500px;
+    height: 240px;
+}
+
+.best-deals-on-appliences {
+    height: 250px;
+    width: 440px;
+
+}
+
+.title-brand {
+    font-size: 24px;
+    margin: 30px;
+}
+
+
+
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.brand-card {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-right: 20px;
+   
+
+   
+
+}
+
+.brand-img {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 0px 10px 0px black;
+    margin-bottom: 25px;
+
+
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+}
+
+.animationbtn {
+    height: 60px;
+    margin: 0px;
+    width: 80px;
+}
+
+
+.shopping-items {
+    height: 180px;
+    width: 250px;
+    background-image: url("shoes.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.jwellery{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-1 {
+    background-image: url("./../img/electronics_img/ear.avif");
+}
+.img-2 {
+    background-image: url("./../img/electronics_img/lp.webp");
+}
+.img-3 {
+    background-image: url("./../img/electronics_img/washing.webp");
+}
+.img-4 {
+    background-image: url("./../img/electronics_img/fridge2.webp");
+}
+.img-5{
+    background-image:url("./../img/electronics_img/apple.webp") ;
+}
+.img-6 {
+    background-image: url("./../img/electronics_img/band.webp");
+}
+.img-7 {
+    background-image: url("./../img/electronics_img/iphone.webp");
+}
+.img-8 {
+    background-image: url("./../img/electronics_img/dryer.webp");
+}
+.img-9 {
+    background-image: url("./../img/electronics_img/iron.webp");
+}
+.img-10 {
+    background-image: url("./../img/electronics_img/cooler.webp");
+}
+.img-11 {
+    background-image: url("./../img/electronics_img/samsung.webp");
+}
+.img-12 {
+    background-image: url("./../img/electronics_img/speaker.webp");
+}
+.wishlist-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 210px;
+
+}
+.wishlist-icon:hover{
+    
+    background-color: red;
+    cursor: pointer;
+}
+
+.price { 
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    
+}
+
+.title {
+    
+
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    
+}
+
+.ratings {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: 0px auto;
+}
+
+.descrip {
+    margin-left: 10px;
+    margin: 12px 0;
+    font-size: 15px;
+}
+
+.menu-btn {
+    background-color:white;
+    color: black;
+    margin: 7px 10px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.menu-btn:hover{
+    background-color:black;
+    color: #fff;
+    border: 1px solid black;
+}
+.shopping-card-container {
+    height: 370px;
+    width: 255px;
+    padding: 12px;
+    margin: 60px 20px;
+    border:0.5px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+    cursor: pointer;
+}
+
+.shopping-card-container:hover {
+    box-shadow: 0px 0px 20px 2px gray;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

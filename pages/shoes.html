@@ -4,7 +4,6 @@
     <title>Shoes Gallery</title>
     <link rel="icon" href="/img/trolley.png" type="image/png" />
     <link rel="stylesheet" href="/css/style.css"/>
-    <link rel="stylesheet" href="/css/login.css"/>
     <link rel="stylesheet" href="/css/shoes.css"/>
 <style>
     .brands{
@@ -13,96 +12,50 @@
     justify-content: center;
     align-items: center;
 }
-
 .brand-card{
     height: 150px;
     width: 150px;
     text-align: center;
 }
-
 .brand-img{
     display: block;
     margin: 0 auto;
     height: 100px;
     width: 100px;
 }
-
 .brand-name{
     font-size: 20px;
     color: black;
     text-decoration: none;
-
 }
-
-.why-choose-us{
-    margin-top: 30px;
-  }
-  .why-choose-us-card{
-    background-color: white;
-    width: 180px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 5px #475d5b;
-  }
-  .why-choose-us-img{
-    height: 60px;
-    display: block;
-    margin: 10px auto;
-  }
-  .why-choose-us-container{
-    display: flex;
-    justify-content: space-around;
-   
-    margin: 20px 0;
-    padding: 20px;
-  }
-  .position{
-    position: sticky;
-    top: 20px;
-    left: 10px;
-    border: 1px solid black;
-    border-radius: 7px;
-    padding: 5px 10px 5px 10px ;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-   
-  }
-  .position:hover{
-    color: white;
-    background-color: rgb(192, 184, 184);
-    transition: 0.5s;
-
-  }
-  .no-underline{
-    text-decoration: none;
-  }
 </style>
 </head>
 <body class="body">
-    <button class="position" >
-        <a href="/index.html" class="no-underline" >
-        Back to Homepage</a>
-    </button>
+    <div class="parent">
+        <div class="upper-side">
+            <span class="heading"><b>Lootkart...🛍️</b> </span>
+            <input class="search-bar" type="text" placeholder="search for products" />
+        </div>
+        <div class="logins">
+            <a href="/pages/my-cart.html"><img src="/img/cart.png" height="40px" class="icons" /></a>
+            <b>Cart</b>
+        </div>
+        <div class="logins">
+            <a href="/pages/whistlist.html"><img src="/img/wishlist.png" height="40px" class="icons" /></a>
+            <b>Wishlist</b>
+        </div>
+        <div class="logins">
+            <a href="/pages/order's.html"><img src="/img/bag.png" height="40px" class="icons" /></a>
+            <b>Bag</b>
+        </div>
+    </div><hr>
 
     <div class="parent">
         <div>
-            <h1 class="text-center" style="font-size: 40px; font-family: cursive;" >Shoes Gallery...🛍️</h1>
+            <h1 class="text-center" style="font-size: 40px; font-family: cursive;" >Shoes Gallery...👟</h1>
             <h2><p class="text-center">Put Your Best Foot Forward: <span class="highlight"> Shoes That Match Your Mood...</span></p></h2>
         </div>
-    </div><hr>
-    <div class="header-section" >
-        <div class="header-img-container">
-        <img src="/img/football-shoes.png" class="header-img">
-        </div>
-        <div class="header-info-container">
-            <h3 class="tag">We’ve carefully created collection offers a diverse range of footwear, from timeless classics to the latest trends, ensuring that you’ll find the perfect pair for any occasion....👌👌👌</h3>
-            <p class="p-co">Whether you're looking for the comfort of everyday wear or the elegance of a night out, our selection caters to every taste and need. Walk with confidence, knowing that our shoes are designed with both quality and fashion in mind. Discover your new favorite pair today and step into a world of endless possibilities ! </p> 
-           
-<DIV class="MAIN-BTN">
-    <h3>Your Journey, Your Brands, Your Shoes.</h3>
-</DIV>
+    </div>
     <div class="brands">
         <div class="brand-card">
             <a href="/pages/shoes/nike.html" class="brand-name">
@@ -130,38 +83,6 @@
         </div>
     </div>
 </div>
-</div>
-
-<h2 class="text-center why-choose-us text-dark font-fam">TOP SERVICES...</h2>
-<div class="why-choose-us-container">
-    <div class="why-choose-us-card">
-        <img src="/IMG/get-money.png" class="why-choose-us-img">
-        <h3 class="text-center">Affordable Pricing</h3>
-        <p class="text-center font-fam">
-            Keeping costs low for our customers.
-        </p>
-    </div>
-    <div class="why-choose-us-card">
-        <img src="/IMG/fast-delivery.png" class="why-choose-us-img">
-        <h3 class="text-center">Fast Delivery</h3>
-        <p class="text-center font-fam">
-            Ensure fast and reliable delivery every time.
-        </p>
-    </div>
-    <div class="why-choose-us-card">
-        <img src="/IMG/premium-quality.png" class="why-choose-us-img">
-        <h3 class="text-center">Best Quality </h3>
-        <p class="text-center font-fam">
-            Quality You Can Feel, Durability You Can Trust.
-        </p>
-    </div>
-    <div class="why-choose-us-card">
-        <img src="/IMG/limited.png" class="why-choose-us-img">
-        <h3 class="text-center">Limited Time Deals</h3>
-        <p class="text-center font-fam">
-            This is your chance to grab top-quality footwear.
-        </p>
-    </div>
-</div>                       
+    
 </body>
 </html>

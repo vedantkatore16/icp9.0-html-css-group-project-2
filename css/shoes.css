@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 15px;
+   margin-bottom: 15px; 
 }
 
 .heading {
@@ -118,3 +118,48 @@ width: 50%;
 }
 
   
+
+.why-choose-us{
+  margin-top: 30px;
+}
+.why-choose-us-card{
+  background-color: white;
+  width: 180px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #475d5b;
+}
+.why-choose-us-img{
+  height: 60px;
+  display: block;
+  margin: 10px auto;
+}
+.why-choose-us-container{
+  display: flex;
+  justify-content: space-around;
+ 
+  margin: 20px 0;
+  padding: 20px;
+}
+.position{
+  position: sticky;
+  top: 20px;
+  left: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px 10px 5px 10px ;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+ 
+}
+.position:hover{
+  color: white;
+  background-color: rgb(192, 184, 184);
+  transition: 0.5s;
+
+}
+.no-underline{
+  text-decoration: none;
+}
