@@ -12,6 +12,10 @@
             padding: 15px;
             align-self: center;
             cursor: pointer;
+            position: sticky;
+            left: 0px;
+            top: 0px;
+            background-color: white;
         }
 
         .heading {
@@ -61,6 +65,7 @@
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            margin-top: 10px;
         }
 
         .mob-logo {
@@ -69,6 +74,7 @@
             justify-content: space-evenly;
             align-items: center;
             text-align: center;
+            margin-top: 10px;
 
 
         }
@@ -457,14 +463,14 @@
         }
 
 
-
-
-
-
-
-
-
-
+        .footer {
+            background-color:white;
+            color: rgb(17, 14, 14);
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 17em;
+            border-top: 1px solid;
+        }
 
         .wishlist-icon {
             height: 30px;
@@ -543,7 +549,7 @@
             width: 400px;
             border-bottom: 1px solid black;
             text-align: center;
-            margin-right: 200px;
+            margin-right: 100px;
         }
 
         .search-bar:hover {
@@ -570,6 +576,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-left: 20px;
+            margin-right: 20px;
 
         }
 
@@ -604,13 +612,20 @@
             flex-direction: row;
             justify-content: space-evenly;
             text-align: center;
+            position: sticky;
+            left: 0;
+            top: 100px;
+            background-color: white;
+
+            padding: 20px;
 
         }
 
         .text {
             text-decoration: none;
             cursor: pointer;
-            color:black;
+            color: black;
+
         }
 
         body {
@@ -622,49 +637,64 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-right: 30px;
+            margin-right: 50px;
         }
-        .vertical-line{
+
+        .vertical-line {
             border-left: 2px solid grey;
             height: 70px;
             margin: 0 25px;
+        }
+
+        .fix-header {
+            border-bottom: 1px solid black;
+            position: sticky;
+            left: 0px;
+            top: 0px;
+            background-color: white;
         }
     </style>
 </head>
 
 <body>
-    <div class="parent">
-        <div class="upper-side">
-            <span class="heading"><b>Lootkart...🛍️</b> </span>
-            <input class="search-bar" type="text" placeholder="search for products" />
+    <div class="fix-header">
+        <div class="parent">
+            <div class="upper-side">
+                <span class="heading"><b>Lootkart...🛍️</b> </span>
+                <input class="search-bar" type="text" placeholder="search for products" />
+            </div>
+            <div class="logins">
+                <a href="../pages/my-cart.html"><img src="../img/cart.png" height="40px" class="icons" /></a>
+                <b>Cart</b>
+            </div>
+            <div class="logins">
+                <a href="../pages/whistlist.html"><img src="../img/wishlist.png" height="40px" class="icons" /></a>
+                <b>Wishlist</b>
+            </div>
+            <div class="logins">
+                <a href="../pages/order's.html"><img src="../img/bag.png" height="40px" class="icons" /></a>
+                <b>Bag</b>
+            </div>
+            <div class="logins">
+                <a href="../pages/profile.html"><img src="../img/profile-logo.png" height="40px" class="icons" /></a>
+                <b>Profile</b>
+            </div>
         </div>
-        <div class="logins">
-            <a href="../pages/my-cart.html"><img src="../img/cart.png" height="40px" class="icons" /></a>
-            <b>Cart</b>
-        </div>
-        <div class="logins">
-            <a href="../pages/whistlist.html"><img src="../img/wishlist.png" height="40px" class="icons" /></a>
-            <b>Wishlist</b>
-        </div>
-        <div class="logins">
-            <a href="../pages/order's.html"><img src="../img/bag.png" height="40px" class="icons" /></a>
-            <b>Bag</b>
+        <hr />
+        <div class="head">
+            <a href="./mobile-brands.html" class="text"><b>Mobiles</b></a>
+            <a href="./watches.html" class="text"><b>Watches</b></a>
+            <a href="./electronics.html" class="text"><b>Electronics</b></a>
+            <a href="./shoes.html" class="text"><b>Shoes</b></a>
+            <a href="./mini-tv.html" class="text"><b>Mini-tv</b></a>
+            <a href="./jewellery.html" class="text"><b>jewellery</b></a>
+            <a href="./home-appliances.html" class="text"><b>home-appliances</b></a>
+            <a href="./beauty.html" class="text"><b>Beauty</b></a>
+            <a href="./perfume.html" class="text"><b>Perfume</b></a>
+            <a href="./toys.html" class="text"><b>Toys</b></a>
         </div>
     </div>
-    <hr />
-    <div class="head">
-        <a href="./mobile-brands.html" class="text"><b>Mobiles</b></a>
-        <a href="./watches.html" class="text"><b>Watches</b></a>
-        <a href="./electronics.html" class="text"><b>Electronics</b></a>
-        <a href="./shoes.html" class="text"><b>Shoes</b></a>
-        <a href="./mini-tv.html" class="text"><b>Mini-tv</b></a>
-        <a href="./jewellery.html" class="text"><b>jewellery</b></a>
-        <a href="./home-appliances.html" class="text"><b>home-appliances</b></a>
-        <a href="./beauty.html" class="text"><b>Beauty</b></a>
-        <a href="./perfume.html" class="text"><b>Perfume</b></a>
-        <a href="./toys.html" class="text"><b>Toys</b></a>
-    </div>
-    <hr />
+
     <div class="mob-brands">
         <div class="mob-logo">
             <span>
@@ -702,10 +732,10 @@
 
 
 
-    <img src="../img/sam-img/sam-logo.jpg" height="80px" class="mob-logo-icon" class="mob-logo-icon-img" id="samsung"
+    <img src="../img/sam-img/sam-logo.jpg" height="60px" class="mob-logo-icon" class="mob-logo-icon-img" id="samsung"
         class="center">
 
-   
+
 
 
     <div class="apple-cards">
@@ -2139,6 +2169,9 @@
     <img src="../img/one-img/oneads2.webp" class="oneads">
 
     <hr>
+    <footer class="footer">
+        <p>&copy;2024 Lootkart. All Rights Reserved.</p>
+    </footer>
 
 
 
