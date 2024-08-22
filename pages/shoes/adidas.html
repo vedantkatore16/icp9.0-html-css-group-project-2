@@ -5,7 +5,6 @@
     <title>ADIDAS SHOES BRAND</title>
     <link rel="icon" href="/img/trolley.png" type="image/png" />
     <link rel="stylesheet" href="/css/style.css"/>
-    <link rel="stylesheet" href="/css/login.css"/>
     <link rel="stylesheet" href="/css/shoes.css"/>
     <style>
     .position{
@@ -52,10 +51,13 @@
         width: 255px;
         padding: 12px;
         margin: 30px 20px;
-        border: 2px solid gray;
+        border: 0.5px solid gray;
         border-radius: 15px;
         box-shadow: 1px 1px 15px 2px #b7b7b8;
     }
+    .shopping-card-container:hover {
+            box-shadow: 0px 0px 20px 2px gray;
+}
     
     .shopping-items {
         height: 180px;
@@ -67,7 +69,7 @@
     }
     
     .img-1 {
-       width: 250px;
+       width: 225px;
        height: 200px;
     }
     
@@ -130,10 +132,25 @@
         
     </head>
     <body>
-        <button class="position" >
-            <a href="/pages/shoes.html" class="no-underline" >
-            Back to Previouspage</a>
-        </button>
+
+        <div class="parent">
+            <div class="upper-side">
+                <span class="heading"><b>Lootkart...🛍️</b> </span>
+                <input class="search-bar" type="text" placeholder="search for products" />
+            </div>
+            <div class="logins">
+                <a href="/pages/my-cart.html"><img src="/img/cart.png" height="40px" class="icons" /></a>
+                <b>Cart</b>
+            </div>
+            <div class="logins">
+                <a href="/pages/whistlist.html"><img src="/img/wishlist.png" height="40px" class="icons" /></a>
+                <b>Wishlist</b>
+            </div>
+            <div class="logins">
+                <a href="/pages/order's.html"><img src="/img/bag.png" height="40px" class="icons" /></a>
+                <b>Bag</b>
+            </div>
+        </div><hr>
         <div class="parent">
             <div>
                 <span class="heading">ADIDAS...👟</span>

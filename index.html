@@ -30,7 +30,6 @@
             padding: 0;
         }
 
-        .upper-side {}
 
         .heading {
             font-size: 50px;
@@ -46,10 +45,11 @@
             text-align: center;
             margin-right: 200px;
         }
-        .search-bar:hover{
+
+        .search-bar:hover {
             transform: scale(1.1);
             transition: 0.5s;
-           
+
         }
 
 
@@ -58,9 +58,10 @@
             border: 1px solid white;
             padding: 8px;
             cursor: pointer;
-          
+
         }
-        .icons:hover{
+
+        .icons:hover {
             transform: scale(1.1);
             transition: 0.5s;
         }
@@ -94,7 +95,7 @@
             display: flex;
             margin: 30px;
             font-size: 20px;
-            background-color: ;
+
         }
 
         .icon {
@@ -102,6 +103,52 @@
             flex-direction: column;
             align-items: center;
             margin-right: 30px;
+        }
+
+        .fixed-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 10px;
+            background-color: rgb(154, 188, 188);
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 20px;
+
+        }
+
+        .main-btn {
+            text-decoration: double;
+
+        }
+
+        .index-demo {
+            width: 1500px;
+            margin-top: 20px;
+        }
+
+        .demo-mobile-card-index {
+            border: 0.5px solid gray;
+            height: 400px;
+            width: 450px;
+            padding: 10px;
+            margin: 50px;
+
+        }
+
+        .card-adjust {}
+
+        .demo-img-index {
+            border-radius: 10px 10px 0px 0px;
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
         }
     </style>
 </head>
@@ -125,12 +172,13 @@
             <b>Bag</b>
         </div>
     </div>
+    <hr/>
 
-    <hr />
-    <header>
+    <div>
         <div class="header">
             <div class="logins">
-                <a href="./pages/mobiles.html"><img src="./img/mobile-img-icon.jpeg" height="75px" class="icons" /></a>
+                <a href="./pages/mobile-brands.html"><img
+                        src="./img/mobile-img-icon.jpeg" height="75px" class="icons" /></a>
                 <b>Mobiles</b>
             </div>
 
@@ -150,9 +198,9 @@
 
             </div>
             <div class="logins">
-                <a href="./pages/minitv.html"><img src="./img/minitv-img-icon.png" height="80px"
+                <a href="./pages/mini-tv.html"><img src="./img/minitv-img-icon.png" height="80px"
                         class="icons" /></a></a>
-                <b>Minitv</b>
+                <b>MiniTv</b>
 
             </div>
             <div class="logins">
@@ -186,8 +234,44 @@
             </div>
 
         </div>
-    </header>
+    </div>
     <hr />
+
+    <div>
+
+        <a href="./img/index-img/electronicd-index.jpg"><img src="./img/index-img/mobiles-index.jpg" target
+                class="index-demo"></a>
+
+
+    </div>
+
+    <div>
+        <div class="demo-mobile-card-index">
+            <div class="card-adjust">
+                <img src="./img/z-fold-samsung.webp" class="demo-img-index">
+                <span>
+                    Z-fold-samsung
+                </span>
+                <img src="./img/z-fold-samsung.webp" class="demo-img-index">
+                <span>
+                    Z-fold-samsung
+                </span>
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="demo-mobile-card-index">
+        <img src="./img/z-fold-samsung.webp" class="demo-img-index">
+        <span>
+            Z-fold-samsung
+        </span>
+
+    </div>
+
+
 
 
 </body>

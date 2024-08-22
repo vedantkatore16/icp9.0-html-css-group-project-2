@@ -1,86 +1,8 @@
 
-.parent {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    align-self: center;
-    cursor: pointer;
-}
 
-.logo {
-    border-radius: 50%;
-    border: 1px solid;
-    background-color: #808D7C;
-    margin: 0;
-    padding: 0;
-}
-
-.upper-side {}
-
-.heading {
-    font-size: 50px;
-    font-family: none;
-    margin-right: 150px;
-
-}
-
-.search-bar {
-    border: none;
-    width: 400px;
-    border-bottom: 1px solid black;
-    text-align: center;
-    margin-right: 200px;
-}
-
-.icons {
-    justify-content: end;
-    border: 1px solid black;
-    padding: 8px;
-    cursor: pointer;
-}
-
-.header {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    align-self: center;
-    cursor: pointer;
-    position: sticky;
-}
-
-.logins {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-}
-
-.card {
-    width: 300px;
-    height: 400px;
-    border: 1px solid black;
-    border-radius: 10px;
-
-}
-
-.pages {
-    display: flex;
-    margin: 30px;
-    font-size: 20px;
-    background-color: ;
-}
-
-.icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 30px;
-    border-radius: 50%;
-}
 .electronic-banner {
-    width: 1350px;
-    height: 220px;
+    width: 1500px;
+    height: 240px;
 }
 
 .best-deals-on-appliences {
@@ -98,7 +20,7 @@
 
 .brands {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 35px;
 }
@@ -110,6 +32,8 @@
     margin-right: 20px;
    
 
+   
+
 }
 
 .brand-img {
@@ -119,6 +43,7 @@
     width: 150px;
     border-radius: 50%;
     box-shadow: 5px 0px 10px 0px black;
+    margin-bottom: 25px;
 
 
 }
@@ -137,15 +62,6 @@
     width: 80px;
 }
 
-.shopping-card-container {
-    height: 370px;
-    width: 255px;
-    padding: 12px;
-    margin: 30px 20px;
-    border: 2px solid gray;
-    border-radius: 15px;
-    box-shadow: 1px 1px 15px 2px #b7b7b8;
-}
 
 .shopping-items {
     height: 180px;
@@ -166,7 +82,7 @@
     background-image: url("./../img/electronics_img/ear.avif");
 }
 .img-2 {
-    background-image: url("./../img/electronics_img/laptop2.webp");
+    background-image: url("./../img/electronics_img/lp.webp");
 }
 .img-3 {
     background-image: url("./../img/electronics_img/washing.webp");
@@ -178,7 +94,7 @@
     background-image:url("./../img/electronics_img/apple.webp") ;
 }
 .img-6 {
-    background-image: url("./../img/electronics_img/tv2.webp");
+    background-image: url("./../img/electronics_img/band.webp");
 }
 .img-7 {
     background-image: url("./../img/electronics_img/iphone.webp");
@@ -193,7 +109,7 @@
     background-image: url("./../img/electronics_img/cooler.webp");
 }
 .img-11 {
-    background-image: url("./../img/electronics_img/oven.webp");
+    background-image: url("./../img/electronics_img/samsung.webp");
 }
 .img-12 {
     background-image: url("./../img/electronics_img/speaker.webp");
@@ -260,7 +176,21 @@
     color: #fff;
     border: 1px solid black;
 }
+.shopping-card-container {
+    height: 370px;
+    width: 255px;
+    padding: 12px;
+    margin: 60px 20px;
+    border:0.5px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+    cursor: pointer;
+}
 
+.shopping-card-container:hover {
+    box-shadow: 0px 0px 20px 2px gray;
+
+        }
 
 
 
