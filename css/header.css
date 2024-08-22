@@ -88,6 +88,7 @@ body {
     left: 0;
     top: 100px;
     background-color: white;
+    border-bottom: 1px solid black;
 
     padding: 20px;
 
