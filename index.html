@@ -20,7 +20,7 @@
             padding: 15px;
             align-self: center;
             cursor: pointer;
-            
+
         }
 
         .logins {
@@ -85,17 +85,19 @@
 
         }
 
-     
 
-       
+
+
         .footer {
-            background-color:white;
+            background-color: white;
             color: rgb(17, 14, 14);
             text-align: center;
             padding: 1em 0;
             margin-top: 17em;
             border-top: 1px solid;
+            border-top: 1px solid;
         }
+
         .fix-header {
             border-bottom: 1px solid black;
             position: sticky;
@@ -103,6 +105,7 @@
             top: 0px;
             background-color: white;
         }
+
         .parent {
             display: flex;
             justify-content: space-around;
@@ -114,6 +117,7 @@
             top: 0px;
             background-color: white;
         }
+
         .heading {
             font-size: 50px;
             font-family: none;
@@ -156,6 +160,7 @@
             align-items: center;
 
         }
+
         .head {
             display: flex;
             flex-direction: row;
@@ -175,6 +180,154 @@
             cursor: pointer;
             color: black;
 
+        }
+
+        .apple-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+
+        .shopping-card-container {
+            height: 370px;
+            width: 255px;
+            padding: 12px;
+            margin: 30px 20px;
+            border: 0.5px solid gray;
+            border-radius: 15px;
+            box-shadow: 1px 1px 15px 2px #b7b7b8;
+            cursor: pointer;
+        }
+
+        .shopping-card-container:hover {
+            box-shadow: 0px 0px 20px 2px gray;
+
+        }
+
+        .shopping-items {
+            height: 180px;
+            width: 250px;
+            background-image: url("shoes.jpeg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .img-49 {
+            background-image: url("./img/oppo-img/oppo1.webp");
+        }
+
+        .img-50 {
+            background-image: url("./img/oppo-img/oppo2.webp");
+        }
+
+        .img-51 {
+            background-image: url("./img/oppo-img/oppo3.webp");
+        }
+
+        .img-52 {
+            background-image: url("./img/oppo-img/oppo4.webp");
+        }
+
+        .img-22 {
+            background-image: url("./img/apple-img/apple-14plus.jpg");
+        }
+
+        .img-23 {
+            background-image: url("./img/apple-img/apple-14promax.webp");
+        }
+
+        .img-24 {
+            background-image: url("./img/apple-img/apple-15.jpg");
+        }
+
+        .img-25 {
+            background-image: url("./img/apple-img/apple-15\(128\).jpg");
+        }
+
+        .wishlist-icon {
+            height: 30px;
+            width: 30px;
+            margin-left: 210px;
+
+        }
+
+        .shopping-card-price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .shopping-card-title {
+
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .shopping-card-ratings {
+            height: 15px;
+            width: 70px;
+            display: block;
+            margin: 0px auto;
+        }
+
+        .shopping-card-descrip {
+            margin-left: 10px;
+            margin: 12px 0;
+            font-size: 15px;
+            text-align: center;
+
+        }
+
+        .shopping-card-btn {
+            background-color: white;
+            color: black;
+            margin: 7px 10px;
+            padding: 5px 10px;
+            width: 100px;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .shopping-card-btn:hover {
+            background-color: black;
+            color: #fff;
+            border: 1px solid black;
+        }
+
+        .index-demo {
+            width: 1500px;
+            margin-top: 20px;
+        }
+        .latestNupcoming{
+            text-align: center;
+        }
+        .latest{
+            box-shadow: 1px 1px 15px 2px rgb(195, 194, 194);
+        }
+        .l-n-u-img{
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+        }
+        
+        
+        
+        .title{
+            font-size: 24px;
+            margin: 30px;
+        }
+        .center{
+            text-align: center;
+            margin: 50px;
         }
     </style>
 </head>
@@ -203,8 +356,8 @@
                 <b>Profile</b>
             </div>
         </div>
-       
-       
+
+
     </div>
 
     <div>
@@ -270,13 +423,181 @@
     </div>
     <hr />
 
+    <h1 class="center">
+        Mobiles
+    </h1>
     <div>
 
-        <a href="./img/index-img/electronicd-index.jpg"><img src="./img/index-img/mobiles-index.jpg" target
-                class="index-demo"></a>
+        <a href="./pages/mobile-brands.html"> <img src="./img/index-img/mobiles-index.jpg" class="index-demo"></a>
 
 
     </div>
+
+    <div class="apple-cards">
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-49">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹15,999/-</p>
+
+            <p class="shopping-card-title">Oppo A3x</p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(white,8GB RAM,256GB Storage)</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-50">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹25,999/-</p>
+
+            <p class="shopping-card-title">Oppo A3Pro</p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(purple,8GB RAM,256GB Storage)</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-51">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹45,999/-</p>
+
+            <p class="shopping-card-title">Oppo F27 Pro+</p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(black,12GB RAM,256GB Storage)</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-52">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹23,999/-</p>
+
+            <p class="shopping-card-title">Realme N61</p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(blue,8GB RAM,256GB Storage)</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div>
+
+            <a href="./pages/mobile-brands.html"> <img src="./img/apple-img/apple-main-ads.jpg" class="index-demo"></a>
+
+
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-22">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹54,999/-</p>
+
+            <p class="shopping-card-title">Apple iPhone 14 </p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(128 GB) - red</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-23">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹1,09,999/-</p>
+
+            <p class="shopping-card-title">Apple iPhone 14pro </p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(128 GB) - grey</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-24">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹58,999/-</p>
+
+            <p class="shopping-card-title">Apple iPhone 15 </p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(128 GB) - white</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-25">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹58,999/-</p>
+
+            <p class="shopping-card-title">Apple iPhone 15 </p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(128 GB) - yellow</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+    </div>
+    <h1 class="center">Watches </h1>
+
+    <h3 class="title">Latest & Upcoming : Smartwatches</h3>
+
+
+    <div class="latestNupcoming">
+        <div class="latest">
+           <a href="./pages/watches.html">
+            <img src="./img/l&u-1.jpg" class="l-n-u-img" alt="">
+            <img src="./img/l&u-2.jpg" class="l-n-u-img" alt="">
+            <img src="./img/l&u-3.jpg" class="l-n-u-img" alt="">
+            <img src="./img/l&u-4.jpg" class="l-n-u-img" alt="">
+           </a>
+        </div>
+    </div>
+
+
+
+
+
     <footer class="footer">
         <p>&copy;2024 Lootkart. All Rights Reserved.</p>
     </footer>
