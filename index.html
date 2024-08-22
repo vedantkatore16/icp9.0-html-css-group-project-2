@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="icon" href="./img/trolley.png" type="image/png" />
     <style>
         body {
@@ -307,27 +308,220 @@
             width: 1500px;
             margin-top: 20px;
         }
-        .latestNupcoming{
+
+        .latestNupcoming {
             text-align: center;
         }
-        .latest{
+
+        .latest {
             box-shadow: 1px 1px 15px 2px rgb(195, 194, 194);
         }
-        .l-n-u-img{
+
+        .l-n-u-img {
             display: inline-block;
             height: 300px;
             width: 300px;
         }
-        
-        
-        
-        .title{
+
+
+
+        .title {
             font-size: 24px;
             margin: 30px;
         }
-        .center{
+
+        .center {
             text-align: center;
             margin: 50px;
+        }
+
+        .offer-cards {
+            display: flex;
+
+        }
+
+        .offer {
+            text-decoration: none;
+            color: black;
+        }
+
+        .cards {
+            height: 350px;
+            width: 250px;
+            display: block;
+            margin: 40px 10px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 30px;
+            box-shadow: 1px 1px 15px 2px rgb(171, 170, 170);
+
+        }
+
+        .card-header {
+            font-size: 22px;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+
+        .cards-pts {
+            margin: 7px;
+        }
+
+        .card-img {
+            display: block;
+            margin: 5px auto;
+            height: 220px;
+            width: 200px;
+
+        }
+
+        .num-effect {
+            font-size: 90px;
+
+        }
+
+        .position-relative {
+            position: relative;
+            top: 170px;
+            left: 37px;
+        }
+
+        .price {
+            text-decoration: none;
+            padding: 6px 20px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+
+        }
+
+        .title-brand {
+            font-size: 24px;
+            margin: 30px;
+        }
+
+        .animationbtn {
+            height: 60px;
+            margin: 0px;
+            width: 80px;
+        }
+
+        .best-deals-on-appliences {
+            height: 250px;
+            width: 440px;
+
+        }
+
+        .img-9 {
+            background-image: url("./img/electronics_img/iron.webp");
+        }
+
+        .img-10 {
+            background-image: url("./img/electronics_img/cooler.webp");
+        }
+
+        .img-11 {
+            background-image: url("./img/electronics_img/samsung.webp");
+        }
+
+        .img-12 {
+            background-image: url("./img/electronics_img/speaker.webp");
+        }
+
+        .jwellery {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .shopping-card-container {
+            height: 370px;
+            width: 255px;
+            padding: 12px;
+            margin: 60px 20px;
+            border: 0.5px solid gray;
+            border-radius: 15px;
+            box-shadow: 1px 1px 15px 2px #b7b7b8;
+            cursor: pointer;
+        }
+
+        .shopping-card-container:hover {
+            box-shadow: 0px 0px 20px 2px gray;
+        }
+
+        .shopping-items {
+            height: 180px;
+            width: 250px;
+            background-image: url("shoes.jpeg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .wishlist-icon {
+            height: 30px;
+            width: 30px;
+            margin-left: 210px;
+
+        }
+
+        .wishlist-icon:hover {
+
+            background-color: red;
+            cursor: pointer;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+        .title {
+
+
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+        .ratings {
+            height: 15px;
+            width: 70px;
+            display: block;
+            margin: 0px auto;
+        }
+
+        .descrip {
+            margin-left: 10px;
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        .menu-btn {
+            background-color: white;
+            color: black;
+            margin: 7px 10px;
+            padding: 5px 10px;
+            width: 100px;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .menu-btn:hover {
+            background-color: black;
+            color: #fff;
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -585,14 +779,168 @@
 
     <div class="latestNupcoming">
         <div class="latest">
-           <a href="./pages/watches.html">
-            <img src="./img/l&u-1.jpg" class="l-n-u-img" alt="">
-            <img src="./img/l&u-2.jpg" class="l-n-u-img" alt="">
-            <img src="./img/l&u-3.jpg" class="l-n-u-img" alt="">
-            <img src="./img/l&u-4.jpg" class="l-n-u-img" alt="">
-           </a>
+            <a href="./pages/watches.html">
+                <img src="./img/l&u-1.jpg" class="l-n-u-img" alt="">
+                <img src="./img/l&u-2.jpg" class="l-n-u-img" alt="">
+                <img src="./img/l&u-3.jpg" class="l-n-u-img" alt="">
+                <img src="./img/l&u-4.jpg" class="l-n-u-img" alt="">
+            </a>
         </div>
     </div>
+
+    <h3 class="title">Up to 75% Off: Bestselling Smartwatches</h3>
+
+    <a href="./pages/watches.html"></a>
+    <div class="offer-cards">
+        <a href=" #samsung" class="offer">
+            <h1 class="num-effect position-relative">1</h1>
+            <div class="cards">
+                <p class="card-header">Samsung Watch 4</p>
+                <p class="cards-pts"> •LTE<br /> •Compaitable with Anroid </p>
+
+                <img src="./img/samsung-1.jpg" class="card-img" alt="">
+                <br />
+
+                <a href="#sansung" class="price"><del>₹42,999</del> <b>₹10,999</b></a>
+            </div>
+        </a>
+
+
+        <a href=" #apple" class="offer">
+            <h1 class="num-effect position-relative">2</h1>
+            <div class="cards">
+                <p class="card-header">Apple Watch SE</p>
+                <p class="cards-pts"> •GPS + Cellular<br /> •Long Battery </p>
+
+                <img src="./img/apple-1.jpg" class="card-img" alt="">
+                <br />
+
+                <a href="#apple" class="price"><del>₹89,999</del> <b>₹63,999</b></a>
+            </div>
+        </a>
+
+
+        <a href="#noise" class="offer">
+            <h1 class="num-effect position-relative">3</h1>
+            <div class="cards">
+                <p class="card-header">Noise ColorFit Ultra 3</p>
+                <p class="cards-pts"> •1.96" AMOLED Display<br /> •Functional Crown </p>
+
+                <img src="./img/noise-1.jpg" class="card-img" alt="">
+                <br />
+
+                <a href="#noise" class="price"><del>₹7,999</del> <b>₹3,999</b></a>
+            </div>
+        </a>
+
+
+
+        <a href="#fireboltt" class="offer">
+            <h1 class="num-effect position-relative">4</h1>
+            <div class="cards">
+                <p class="card-header">Fire-Boltt Phoenix </p>
+                <p class="cards-pts"> • AI Voice Assistant<br /> • Luxury Stainless Steel </p>
+
+                <img src="./img/fireboltt-1.webp" class="card-img" alt="">
+                <br />
+
+                <a href="#fireboltt" class="price"><del>₹12,999</del> <b>₹7,999</b></a>
+            </div>
+        </a>
+
+    </div>
+
+    <h1 class="center">Electronics </h1>
+
+    <h3 class="title-brand">Best Deals On Appliences..<img src="./img/electronics_img/sales.gif" class="animationbtn">
+    </h3>
+
+    <div class="latestNupcoming">
+        <div class="latest">
+            <a href="./pages/electronics.html">
+                <img src="./img/electronics_img/bestdeals1.webp" class="best-deals-on-appliences">
+            <img src="./img/electronics_img/bestdeals2.webp" class="best-deals-on-appliences">
+            <img src="./img/electronics_img/bestdeals3.webp" class="best-deals-on-appliences">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="jwellery">
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-9">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="price"> ₹399/-</p>
+
+            <p class="title">Dry Iron</p>
+
+            <p class="ratings">★★★★★(4)</p>
+
+            <p class="descrip">Nova Plus Amaze NI 10 1100 W Dry Iron </p>
+
+            <button class="menu-btn">Add to cart</button>
+            <button class="menu-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-10">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="price"> ₹10,850/-</p>
+
+            <p class="title">Air Cooler</p>
+
+            <p class="ratings">★★★★★(4)</p>
+
+            <p class="descrip">BAJAJ 70 L Desert Air Cooler </p>
+
+            <button class="menu-btn">Add to cart</button>
+            <button class="menu-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-11">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="price"> ₹30,999/-</p>
+
+            <p class="title">SAMSUNG Galaxy A35 </p>
+
+            <p class="ratings">★★★★★(4)</p>
+
+            <p class="descrip">Galaxy A35 5G(128 GB)</p>
+
+            <button class="menu-btn">Add to cart</button>
+            <button class="menu-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-12">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="price"> ₹646/-</p>
+
+            <p class="title">Bluetooth Speaker</p>
+
+            <p class="ratings">★★★★★(4)</p>
+
+            <p class="descrip">Bluetooth Laptop/ (Blue, Stereo Channel)</p>
+
+            <button class="menu-btn">Add to cart</button>
+            <button class="menu-btn">Buy now</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
 
 
 
