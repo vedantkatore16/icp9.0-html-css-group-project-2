@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="./css/style.css" />
-
     <link rel="icon" href="./img/trolley.png" type="image/png" />
     <style>
         body {
@@ -231,21 +230,23 @@
             background-image: url("./img/oppo-img/oppo4.webp");
         }
 
-        .img-22 {
-            background-image: url("./img/apple-img/apple-14plus.jpg");
+        .img-17 {
+            background-image: url("/img/apple-1.jpg");
         }
 
-        .img-23 {
-            background-image: url("./img/apple-img/apple-14promax.webp");
+        .img-18 {
+            background-image: url("./img/apple-img/apple-12.jpg");
         }
 
-        .img-24 {
-            background-image: url("./img/apple-img/apple-15.jpg");
+        .img-19 {
+            background-image: url("./img/apple-img/apple-13.jpg");
         }
 
-        .img-25 {
-            background-image: url("./img/apple-img/apple-15\(128\).jpg");
+        .img-20 {
+            background-image: url("./img/apple-img/apple-13mini.webp");
         }
+
+        
 
         .wishlist-icon {
             height: 30px;
@@ -523,6 +524,136 @@
             color: #fff;
             border: 1px solid black;
         }
+
+        .parent {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .heading {
+            font-size: 50px;
+            font-family: cursive;
+        }
+
+        .card-parent {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .shopping-card-container {
+
+            height: 370px;
+            width: 255px;
+            padding: 12px;
+            margin: 30px 20px;
+            border: 0.5px solid gray;
+            border-radius: 15px;
+            box-shadow: 1px 1px 15px 2px #b7b7b8;
+        }
+
+        .shopping-card-container:hover {
+            box-shadow: 0px 0px 20px 2px gray;
+        }
+
+        .shopping-items {
+            height: 180px;
+            width: 250px;
+            background-image: url("shoes.jpeg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .img-1 {
+            width: 225px;
+            height: 200px;
+        }
+
+        .wishlist-icon {
+            height: 30px;
+            width: 30px;
+            margin-left: 210px;
+
+        }
+
+        .shopping-card-price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .shopping-card-title {
+
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .shopping-card-ratings {
+            height: 15px;
+            width: 70px;
+            display: block;
+            margin: 0px auto;
+        }
+
+        .shopping-card-descrip {
+            margin-left: 10px;
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        .shopping-card-btn {
+            background-color: white;
+            color: black;
+            margin: 7px 10px;
+            padding: 5px 10px;
+            width: 100px;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .shopping-card-btn:hover {
+            background-color: black;
+            color: #fff;
+            border: 1px solid black;
+        }
+
+        .position {
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            border: 1px solid black;
+            border-radius: 7px;
+            padding: 5px 10px 5px 10px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+
+        }
+
+        .position:hover {
+            color: white;
+            background-color: rgb(192, 184, 184);
+            transition: 0.5s;
+
+        }
+
+        .no-underline {
+            text-decoration: none;
+        }
+
+        .sale-img {
+            margin: 30px;
+        }
     </style>
 </head>
 
@@ -550,20 +681,19 @@
                 <b>Profile</b>
             </div>
 
-
-            
         </div>
+        <hr />
         <div class="head">
-            <a href="./mobile-brands.html" class="text"><b>Mobiles</b></a>
-            <a href="./watches.html" class="text"><b>Watches</b></a>
-            <a href="./electronics.html" class="text"><b>Electronics</b></a>
-            <a href="./shoes.html" class="text"><b>Shoes</b></a>
-            <a href="./mini-tv.html" class="text"><b>Mini-tv</b></a>
-            <a href="./jewellery.html" class="text"><b>jewellery</b></a>
-            <a href="./home-appliances.html" class="text"><b>home-appliances</b></a>
-            <a href="./beauty.html" class="text"><b>Beauty</b></a>
-            <a href="./perfume.html" class="text"><b>Perfume</b></a>
-            <a href="./toys.html" class="text"><b>Toys</b></a>
+            <a href="./pages/mobile-brands.html" class="text"><b>Mobiles</b></a>
+            <a href="./pages/watches.html" class="text"><b>Watches</b></a>
+            <a href="./pages/electronics.html" class="text"><b>Electronics</b></a>
+            <a href="./pages/shoes.html" class="text"><b>Shoes</b></a>
+            <a href="./pages/mini-tv.html" class="text"><b>Mini-tv</b></a>
+            <a href="./pages/jewellery.html" class="text"><b>jewellery</b></a>
+            <a href="./pages/home-appliances.html" class="text"><b>home-appliances</b></a>
+            <a href="./pages/beauty.html" class="text"><b>Beauty</b></a>
+            <a href="./pages/perfume.html" class="text"><b>Perfume</b></a>
+            <a href="./pages/toys.html" class="text"><b>Toys</b></a>
         </div>
 
 
@@ -696,7 +826,7 @@
         </div>
 
         <div class="shopping-card-container">
-            <div class="shopping-items img-52">
+            <div class="shopping-items ">
                 <img src="./img/wishlist.png" class="wishlist-icon">
             </div>
 
@@ -711,22 +841,44 @@
             <button class="shopping-card-btn">Add to cart</button>
             <button class="shopping-card-btn">Buy now</button>
         </div>
-
-        <div>
-
-            <a href="./pages/mobile-brands.html"> <img src="./img/apple-img/apple-main-ads.jpg" class="index-demo"></a>
+    </div>
 
 
-        </div>
 
+
+    <div>
+
+        <a href="./pages/mobile-brands.html"> <img src="./img/apple-img/apple-main-ads.jpg" class="index-demo"></a>
+
+
+    </div>
+
+    <div class="apple-cards">
         <div class="shopping-card-container">
-            <div class="shopping-items img-22">
+            <div class="shopping-items img-17">
                 <img src="./img/wishlist.png" class="wishlist-icon">
             </div>
 
-            <p class="shopping-card-price"> ₹54,999/-</p>
+            <p class="shopping-card-price"> ₹45,999/-</p>
 
-            <p class="shopping-card-title">Apple iPhone 14 </p>
+            <p class="shopping-card-title"> Apple iPhone 11 </p>
+
+            <p class="shopping-card-ratings">★★★★★(4)</p>
+
+            <p class="shopping-card-descrip">(64 GB) - green</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+
+        <div class="shopping-card-container">
+            <div class="shopping-items img-18">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+            </div>
+
+            <p class="shopping-card-price"> ₹50,999/-</p>
+
+            <p class="shopping-card-title">Apple iPhone 12 </p>
 
             <p class="shopping-card-ratings">★★★★★(4)</p>
 
@@ -737,30 +889,13 @@
         </div>
 
         <div class="shopping-card-container">
-            <div class="shopping-items img-23">
+            <div class="shopping-items img-19">
                 <img src="./img/wishlist.png" class="wishlist-icon">
             </div>
 
-            <p class="shopping-card-price"> ₹1,09,999/-</p>
+            <p class="shopping-card-price"> ₹52,999/-</p>
 
-            <p class="shopping-card-title">Apple iPhone 14pro </p>
-
-            <p class="shopping-card-ratings">★★★★★(4)</p>
-
-            <p class="shopping-card-descrip">(128 GB) - grey</p>
-
-            <button class="shopping-card-btn">Add to cart</button>
-            <button class="shopping-card-btn">Buy now</button>
-        </div>
-
-        <div class="shopping-card-container">
-            <div class="shopping-items img-24">
-                <img src="./img/wishlist.png" class="wishlist-icon">
-            </div>
-
-            <p class="shopping-card-price"> ₹58,999/-</p>
-
-            <p class="shopping-card-title">Apple iPhone 15 </p>
+            <p class="shopping-card-title">Apple iPhone 13 </p>
 
             <p class="shopping-card-ratings">★★★★★(4)</p>
 
@@ -771,22 +906,27 @@
         </div>
 
         <div class="shopping-card-container">
-            <div class="shopping-items img-25">
+            <div class="shopping-items img-20">
                 <img src="./img/wishlist.png" class="wishlist-icon">
             </div>
 
-            <p class="shopping-card-price"> ₹58,999/-</p>
+            <p class="shopping-card-price"> ₹52,999/-</p>
 
-            <p class="shopping-card-title">Apple iPhone 15 </p>
+            <p class="shopping-card-title">Apple iPhone 13 </p>
 
             <p class="shopping-card-ratings">★★★★★(4)</p>
 
-            <p class="shopping-card-descrip">(128 GB) - yellow</p>
+            <p class="shopping-card-descrip">(128 GB) - green</p>
 
             <button class="shopping-card-btn">Add to cart</button>
             <button class="shopping-card-btn">Buy now</button>
         </div>
+
     </div>
+
+       
+
+ 
     <h1 class="center">Watches </h1>
 
     <h3 class="title">Latest & Upcoming : Smartwatches</h3>
@@ -874,8 +1014,8 @@
         <div class="latest">
             <a href="./pages/electronics.html">
                 <img src="./img/electronics_img/bestdeals1.webp" class="best-deals-on-appliences">
-            <img src="./img/electronics_img/bestdeals2.webp" class="best-deals-on-appliences">
-            <img src="./img/electronics_img/bestdeals3.webp" class="best-deals-on-appliences">
+                <img src="./img/electronics_img/bestdeals2.webp" class="best-deals-on-appliences">
+                <img src="./img/electronics_img/bestdeals3.webp" class="best-deals-on-appliences">
             </a>
 
         </div>
@@ -949,14 +1089,82 @@
         </div>
     </div>
 
+    <h1 class="center">Shoes </h1>
 
+    <a href="./pages/shoes.html"><img src="./img/shoes-img/sale3.jpg" height="400px" width="1280px"
+            class="sale-img"></a>
 
+    <div class="card-parent">
 
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+                <img src="./img/shoes-img/P3.jpg" class="img-1">
+            </div>
 
+            <p class="shopping-card-price"> ₹14,195/-</p>
 
+            <p class="shopping-card-title">Puma Dunk High</p>
 
+            <p class="shopping-card-ratings">★★★★★(5)</p>
 
+            <p class="shopping-card-descrip">Full length Shoes.</p>
 
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+                <img src="./img/shoes-img/P4.jpg" class="img-1">
+            </div>
+
+            <p class="shopping-card-price"> ₹4,999/-</p>
+
+            <p class="shopping-card-title">Puma Black Air Force</p>
+
+            <p class="shopping-card-ratings">★★★★(4)</p>
+
+            <p class="shopping-card-descrip">The radiance lives with b-ball original.</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+                <img src="./img/shoes-img/P5.jpg" class="img-1">
+            </div>
+
+            <p class="shopping-card-price"> ₹3,999/-</p>
+
+            <p class="shopping-card-title">Puma Blazer Mid </p>
+
+            <p class="shopping-card-ratings">★★★★(4)</p>
+
+            <p class="shopping-card-descrip">Comfortable enough to wear.</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+        <div class="shopping-card-container">
+            <div class="shopping-items img-1">
+                <img src="./img/wishlist.png" class="wishlist-icon">
+                <img src="./img/shoes-img/P6.jpg" class="img-1">
+            </div>
+
+            <p class="shopping-card-price"> ₹5,999/-</p>
+
+            <p class="shopping-card-title">Puma Air Max Pluse </p>
+
+            <p class="shopping-card-ratings">★★★★(4)</p>
+
+            <p class="shopping-card-descrip">Low-cut padded ankle</p>
+
+            <button class="shopping-card-btn">Add to cart</button>
+            <button class="shopping-card-btn">Buy now</button>
+        </div>
+    </div>
 
 
 
