@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ***** nav-bar **** */
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: #808D7C;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: none;
+    margin-right: 150px;
+
+}
+
+.search-bar {
+    border: none;
+    width: 400px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-right: 200px;
+}
+
+.icons {
+    justify-content: end;
+    border: 1px solid white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-self: center;
+    cursor: pointer;
+    position: sticky;
+}
+
+.logins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.pages {
+    display: flex;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+/* **** latest and upcoming section **** */
+.latestNupcoming{
+    text-align: center;
+}
+.latest{
+    box-shadow: 1px 1px 15px 2px rgb(195, 194, 194);
+}
+.l-n-u-img{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+
+}
+
+
+
+.title{
+    font-size: 24px;
+    margin: 30px;
+}
+
+/*  *** brands sec **** */
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-card{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.brand-img{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+}
+
+.brand-name{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.banner-img{
+    height: auto;
+    width: 100vw;
+    margin-top: 30px;
+}
+
+
+
+/* 75% offer-sections */
+
+.offer-cards{
+    display: flex;
+     
+}
+
+.offer{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.cards{
+    height: auto;
+    width: 250px;
+    display: block;
+    margin: 40px 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 2px rgb(171, 170, 170);
+    justify-content: space-evenly;
+   
+}
+
+.card-header{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.cards-pts{
+    margin: 7px;
+}
+
+.card-img{
+    display: block;
+    margin: 10px auto;
+    height: 350px;
+    width: 250px;
+    
+}
+.num-effect{
+    font-size: 90px;
+ 
+}
+.position-relative{
+    position: relative;
+    top: 250px;
+    left: 10px;
+}
+
+.price{
+    text-decoration: none;
+    padding: 6px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+
+/*  **** Icons section *** */
+.apple-icon{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    box-shadow: 1px 1px 20px 1px rgb(168, 168, 168);
+}
+
+.app-banner-dis{
+    height: 300px;
+}
+
+
+.icon{
+    height: 60px;
+    width: 130px;
+    margin: auto 0px;
+    margin-left: 100px;
+}
+.vertical-line{
+    border-left: 2px solid grey;
+    height: 70px;
+    margin: 0 25px;
+}
+
+.icon-descrip{
+    margin: 18px 0;
+}
+.descrip-title{
+  font-size: 20px;
+}
+
+.bg-banner{
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(130, 127, 127);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 20px 1px rgb(168, 168, 168);
+    margin-bottom: 50px;
+}
+
+.banner{
+    width: 40%;
+}
+
+.banner-cards{
+    height: 270px;
+    width: 240px;
+    background-color: rgb(247, 243, 243);
+    margin-right: 50px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+
+.bg-banner-img{
+    height: 300px;
+    width: 100%;
+    
+   
+}
+.banner-cards-img{
+    height: 130px;
+    margin: 10px auto;
+}
+
+.banner-cards-descrip{
+    margin: 10px;
+}
+
+
+.banner-cards-btn{
+    background-color:black;
+    color: white;
+    margin: 7px 15px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+}
+
+
+/* ***** cards **** */
+.apple-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.shopping-card-container {
+    height: auto;
+    width: 255px;
+    padding: 12px;
+    margin: 30px 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 2px #b7b7b8;
+}
+
+.shopping-items {
+    height: 180px;
+    width: 250px;
+    background-image: url("shoes.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.wishlist-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 210px;
+
+}
+
+.shopping-card-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.shopping-card-title {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.shopping-card-ratings {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: 0px auto;
+}
+
+.shopping-card-descrip {
+    margin-left: 10px;
+    margin: 12px 0;
+    font-size: 15px;
+}
+
+.shopping-card-btn {
+    background-color:white;
+    color: black;
+    margin: 7px 10px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 40px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.shopping-card-btn:hover{
+    background-color:black;
+    color: #fff;
+    border: 1px solid black;
+}
+
+/*** end **/
+
+
+/*  **park-avenue cards **/
+
+.img-1 {
+    background-image: url("../img/Perfume/two.jpg");
+}
+
+.img-2 {
+    background-image: url("../img/Perfume/park-avenue4.jpg");
+}
+
+.img-3 {
+    background-image: url("../img/Perfume/park-avenue1.jpg");
+}
+
+.img-4 {
+    background-image: url("../img/Perfume/park-avenue3.jpg");
+}
+
+.img-5 {
+    background-image: url("../img/Perfume/park-avenue2.webp");
+}
+
+.img-6 {
+    background-image: url("../img/Perfume/park-avenue5.jpg");
+}
+
+.img-7 {
+    background-image: url("../img/Perfume/park-avenue6.jpg");
+}
+
+.img-8 {
+    background-image: url("../img/Perfume/park-avenue7.jpg");
+}
+
+.img-9 {
+    background-image: url("../img/Perfume/park-avenue9.jpg");
+}
+
+.img-10 {
+    background-image: url("../img/Perfume/park-avenue8.webp");
+}
+
+.img-11 {
+    background-image: url("../img/Perfume/park-avenue10.jpg");
+}
+
+.img-12 {
+    background-image: url("../img/Perfume/park-avenue11.jpg");
+}
+
+/*** end ***/
+
+/*** Bella vita ***/
+.img-25 {
+    background-image: url("./../img/Perfume/bellavita4.jpg");
+}
+
+.img-26 {
+    background-image: url("./../img/Perfume/bellavita5.jpg");
+}
+
+.img-27 {
+    background-image: url("./../img/Perfume/bellavita6.jpg");
+}
+
+.img-28 {
+    background-image: url("./../img/Perfume/bellavita1.jpg");
+}
+
+.img-29 {
+    background-image: url("./../img/Perfume/bellavita2.jpg");
+}
+
+.img-30 {
+    background-image: url("./../img/Perfume/bellavita3.jpg");
+}
+
+.img-31 {
+    background-image: url("./../img/Perfume/bellavita7.jpg");
+}
+
+.img-32 {
+    background-image: url("./../img/Perfume/bellavita8.jpg");
+}
+
+
+/*** fireboltt **/
+
+.img-37 {
+    background-image: url("../img/Perfume/beardo1.jpg");
+}
+
+.img-38{
+    background-image: url("../img/Perfume/beardo2.jpg");
+}
+
+.img-39 {
+    background-image: url("../img/Perfume/beardo3.jpg");
+}
+
+.img-40 {
+    background-image: url("../img/Perfume/beardo4.jpg");
+}
+
+.img-41 {
+    background-image: url("../img/Perfume/beardo5.jpg");
+}
+
+.img-42 {
+    background-image: url("../img/Perfume/beardo6.jpg");
+}
+
+.img-43 {
+    background-image: url("../img/Perfume/beardo7.jpg");
+}
+
+.img-44 {
+    background-image: url("../img/Perfume/beardo8.jpg");
+}
+
+/** end **/

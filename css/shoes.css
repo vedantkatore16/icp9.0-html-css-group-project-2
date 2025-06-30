@@ -144,3 +144,113 @@ width: 50%;
 .no-underline{
   text-decoration: none;
 }
+
+.brands{
+  margin-top: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.brand-card{
+height: 150px;
+width: 150px;
+text-align: center;
+}
+.brand-img{
+display: block;
+margin: 0 auto;
+height: 100px;
+width: 100px;
+}
+.brand-name{
+font-size: 20px;
+color: black;
+text-decoration: none;
+}
+.sale-img{
+margin: 30px ;
+}
+
+
+.footer {
+      background-color: white;
+      color: rgb(17, 14, 14);
+      text-align: center;
+      padding: 1em 0;
+      margin-top:auto;
+  }
+
+  .text {
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+
+  }
+
+
+  .logins {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+  }
+  .heading {
+      font-size: 50px;
+      font-family: none;
+      margin-right: 150px;
+
+  }
+
+  .fix-header {
+      border-bottom: 1px solid black;
+      position: sticky;
+      left: 0px;
+      top: 0px;
+      background-color: white;
+  }
+
+  .icons {
+      justify-content: end;
+      border: 1px solid white;
+      padding: 8px;
+      cursor: pointer;
+
+  }
+
+  .search-bar {
+      border: none;
+      width: 400px;
+      border-bottom: 1px solid black;
+      text-align: center;
+      margin-right: 200px;
+  }
+
+  .search-bar:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+
+  }
+
+  
+  .head {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: center;
+      position: sticky;
+      left: 0;
+      top: 100px;
+      background-color: white;
+
+      padding: 20px;
+
+  }
+  
+.heading {
+font-size: 50px;
+font-family: none;
+margin-right: 150px;
+color: black;
+text-decoration: none;
+
+}
